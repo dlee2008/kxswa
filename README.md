@@ -7,4 +7,4 @@
 https://raw.githubusercontent.com/poduv/poduv/i/long</p>
 建议设置为每日更新</p>
 ### 订阅格式转换
-https://acl4ssr-sub.github.io/
+https://acl4ssr-sub.github.io/  
