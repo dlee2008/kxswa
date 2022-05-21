@@ -9,5 +9,5 @@
 https://raw.githubusercontent.com/poduv/poduv/i/long  
 
 #### yaml
-https://raw.githubusercontent.com/poduv/poduv/i/long  
+https://raw.githubusercontent.com/poduv/poduv/i/yaml  
 建议设置为每日更新  
