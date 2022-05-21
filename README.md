@@ -5,9 +5,9 @@
 - 只提供base64格式，如需其他格式请自行转换  
 ***  
 ### 永久订阅链接  
-#### v2ray
+- v2ray
 https://raw.githubusercontent.com/poduv/poduv/i/long  
 
-#### clash
+- clash
 https://raw.githubusercontent.com/poduv/poduv/i/yaml  
 建议设置为每日更新  
