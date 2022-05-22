@@ -5,10 +5,11 @@
 - 只提供base64格式，如需其他格式请自行转换  
 ***  
 ### 永久订阅链接  
-- v2ray
+- base64格式
 https://raw.githubusercontent.com/poduv/poduv/i/long  
 
-- clash
-https://raw.githubusercontent.com/poduv/poduv/i/yaml  
-  
-建议设置为每日更新  
+只提供base64格式，如需其他订阅请自行转换  
+***  
+### 订阅格式转换网站  
+[订阅转换1](https://bianyuan.xyz/)
+[订阅转换2](https://sub.saraphine.cf/)
