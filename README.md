@@ -11,5 +11,5 @@ https://raw.githubusercontent.com/poduv/poduv/i/long
 只提供base64格式，如需其他订阅请自行转换  
 ***  
 ### 订阅格式转换网站  
-[订阅转换1](https://bianyuan.xyz/)
-[订阅转换2](https://sub.saraphine.cf/)
+[【订阅转换1】](https://bianyuan.xyz/)
+[【订阅转换2】](https://sub.saraphine.cf/)
