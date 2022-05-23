@@ -5,7 +5,7 @@
 - 只提供base64格式，如需其他格式请自行转换  
 ***  
 ### 永久订阅链接  
-- base64格式
+- base64格式  
 https://raw.githubusercontent.com/kxsw0/k/k/long
 
 只提供base64格式，如需其他订阅请自行转换  
