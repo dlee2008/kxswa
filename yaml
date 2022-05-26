@@ -5,80 +5,170 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 更新于05/26, server: 116.129.253.128, port: 20011, type: trojan, password: 59845c5b-bf53-3fcf-acbd-f0c16986df73, sni: node.franxx.codes, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国(TG频道:@kxswa), server: 15.164.93.66, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, sni: huayun.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa), server: 116.129.253.128, port: 20006, type: trojan, password: 59845c5b-bf53-3fcf-acbd-f0c16986df73, sni: node.franxx.codes, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 2, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}}
-  - {name: 🇨🇭 瑞士(TG频道:@kxswa), server: 51.103.172.68, port: 430, type: vmess, uuid: 2d90419b-97a4-432b-9b8f-e046abaf13fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa), server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa), server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: 🇮🇷 伊朗(TG频道:@kxswa), server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}}
+  - {name: 🇸🇬 更新于05/27, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa), server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 2, server: w8.v2mmy.xyz, port: 44821, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa), server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 3, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: 🇹🇼 台湾(TG频道:@kxswa), server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: 🇮🇷 伊朗(TG频道:@kxswa) 2, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: aweikeji-YouTube}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 3, server: iplc01.dns2333.xyz, port: 3201, type: vmess, uuid: cbd439c7-278c-30c7-a8de-f78dbe436349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 4, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 🇯🇵 日本(TG频道:@kxswa), server: ddns.cscncu.paolu.icu, port: 20038, type: vmess, uuid: a7bf7513-c9de-3d77-9a03-644389baf14b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /soda, headers: {Host: ddns.cscncu.paolu.icu}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 5, server: in04.dns2333.xyz, port: 61071, type: vmess, uuid: cbd439c7-278c-30c7-a8de-f78dbe436349, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jkl-ru01.myn1des.com}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 6, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 7, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 8, server: iplc01.dns2333.xyz, port: 3211, type: vmess, uuid: cbd439c7-278c-30c7-a8de-f78dbe436349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 2, server: sg.hmanhng.ml, port: 80, type: vmess, uuid: 64dc6822-93ec-4079-a5a5-9cbd307e158f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hmanhng, headers: {Host: sg.hmanhng.ml}}}
+  - {name: 🇭🇰 香港(TG频道:@kxswa), server: 52.229.218.71, port: 80, type: vmess, uuid: 86ae902e-b812-4e9e-8871-5901d90e69eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 4, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 5, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 6, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇬🇧 英国(TG频道:@kxswa), server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 7, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇦🇺 澳大利亚(TG频道:@kxswa), server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 8, server: w2.v2mmy.xyz, port: 44814, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇺🇸 美国(TG频道:@kxswa), server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true}
+  - {name: 🇩🇪 德国(TG频道:@kxswa), server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 9, server: 523hk1.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 523hk1.fans8.xyz}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 2, server: hk14.nb818.xyz, port: 11276, type: vmess, uuid: 2aa5c66b-467b-40da-aae1-a994881045aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk14.nb818.xyz}}}
+  - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 3, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 3, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: true}
+  - {name: 🇩🇪 德国(TG频道:@kxswa) 2, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 10, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17}
+  - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 4, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: 🇬🇧 英国(TG频道:@kxswa) 2, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true}
+  - {name: 🇬🇧 英国(TG频道:@kxswa) 3, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 11, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: free-tw1.f0692a2921f7.xyz, port: 443, type: vmess, uuid: 91fc891c-510f-3a1b-aa77-9bee2c759522, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: free-tw1.f0692a2921f7.xyz, grpc-opts: {grpc-service-name: microsoft.com}}
+  - {name: 🇬🇧 英国(TG频道:@kxswa) 4, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, skip-cert-verify: true}
+  - {name: 🇬🇧 英国(TG频道:@kxswa) 5, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true}
+  - {name: 乌克兰(TG频道:@kxswa), server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
+  - {name: 乌克兰(TG频道:@kxswa) 2, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 4, server: free-us1.f0692a2921f7.xyz, port: 443, type: vmess, uuid: 91fc891c-510f-3a1b-aa77-9bee2c759522, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: free-us1.f0692a2921f7.xyz, grpc-opts: {grpc-service-name: microsoft.com}}
+  - {name: 🇮🇷 伊朗(TG频道:@kxswa), server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 5, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}}
+  - {name: 🇮🇷 伊朗(TG频道:@kxswa) 2, server: mci.myandroidplus1.ir, port: 80, type: vmess, uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: mci.myandroidplus1.ir}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 6, server: free-node-ar-1.texo.network, port: 8443, type: vmess, uuid: 91fc891c-510f-3a1b-aa77-9bee2c759522, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: free-node-ar-1.texo.network, grpc-opts: {grpc-service-name: microsoft.com}}
+  - {name: (TG频道:@kxswa), server: 103.180.149.88, port: 80, type: vmess, uuid: 86ae902e-b812-4e9e-8871-5901d90e69eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 12, server: iplc01.dns2333.xyz, port: 3201, type: vmess, uuid: cbd439c7-278c-30c7-a8de-f78dbe436349, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 7, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.ssrsub.com}}}
+  - {name: 🇻🇳 越南(TG频道:@kxswa), server: 103.82.27.174, port: 80, type: vmess, uuid: 86ae902e-b812-4e9e-8871-5901d90e69eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 8, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇳🇱 荷兰(TG频道:@kxswa), server: 213.183.59.214, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 13, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇩🇪 德国(TG频道:@kxswa) 3, server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: (TG频道:@kxswa) 2, server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: (TG频道:@kxswa) 3, server: 103.175.147.67, port: 80, type: vmess, uuid: 86ae902e-b812-4e9e-8871-5901d90e69eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}}
+  - {name: 🇫🇷 法国(TG频道:@kxswa), server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: 🇫🇷 法国(TG频道:@kxswa) 2, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
 proxy-groups:
-  - name: 🚀 TG频道:@kxswa
+  - name: 🚀 TG频道:@KXSWA
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 更新于05/26
-      - 🇰🇷 韩国(TG频道:@kxswa)
+      - 🇸🇬 更新于05/27
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
-      - 🇨🇭 瑞士(TG频道:@kxswa)
-      - (TG频道:@kxswa)
       - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa)
-      - 🇹🇼 台湾(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 2
+      - 🇹🇼 台湾(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇯🇵 日本(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
+      - 🇬🇧 英国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 7
+      - 🇦🇺 澳大利亚(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 8
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇩🇪 德国(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 9
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇩🇪 德国(TG频道:@kxswa) 2
+      - 🇨🇳 中国(TG频道:@kxswa) 10
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 2
+      - 🇬🇧 英国(TG频道:@kxswa) 3
+      - 🇨🇳 中国(TG频道:@kxswa) 11
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 5
+      - 乌克兰(TG频道:@kxswa)
+      - 乌克兰(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 4
+      - 🇮🇷 伊朗(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 5
+      - 🇮🇷 伊朗(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 6
+      - (TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 12
+      - 🇺🇸 美国(TG频道:@kxswa) 7
+      - 🇻🇳 越南(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 8
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 13
+      - 🇩🇪 德国(TG频道:@kxswa) 3
+      - (TG频道:@kxswa) 2
+      - (TG频道:@kxswa) 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 更新于05/26
-      - 🇰🇷 韩国(TG频道:@kxswa)
+      - 🇸🇬 更新于05/27
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
-      - 🇨🇭 瑞士(TG频道:@kxswa)
-      - (TG频道:@kxswa)
       - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa)
-      - 🇹🇼 台湾(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 2
+      - 🇹🇼 台湾(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇯🇵 日本(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
+      - 🇬🇧 英国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 7
+      - 🇦🇺 澳大利亚(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 8
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇩🇪 德国(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 9
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇩🇪 德国(TG频道:@kxswa) 2
+      - 🇨🇳 中国(TG频道:@kxswa) 10
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 2
+      - 🇬🇧 英国(TG频道:@kxswa) 3
+      - 🇨🇳 中国(TG频道:@kxswa) 11
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 5
+      - 乌克兰(TG频道:@kxswa)
+      - 乌克兰(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 4
+      - 🇮🇷 伊朗(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 5
+      - 🇮🇷 伊朗(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 6
+      - (TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 12
+      - 🇺🇸 美国(TG频道:@kxswa) 7
+      - 🇻🇳 越南(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 8
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 13
+      - 🇩🇪 德国(TG频道:@kxswa) 3
+      - (TG频道:@kxswa) 2
+      - (TG频道:@kxswa) 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 TG频道:@kxswa
+      - 🚀 TG频道:@KXSWA
       - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
@@ -88,28 +178,58 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 TG频道:@kxswa
+      - 🚀 TG频道:@KXSWA
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 更新于05/26
-      - 🇰🇷 韩国(TG频道:@kxswa)
+      - 🇸🇬 更新于05/27
       - 🇨🇳 中国(TG频道:@kxswa)
-      - 🇸🇬 新加坡(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
-      - 🇨🇭 瑞士(TG频道:@kxswa)
-      - (TG频道:@kxswa)
       - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa)
-      - 🇹🇼 台湾(TG频道:@kxswa)
-      - 🇮🇷 伊朗(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 2
+      - 🇹🇼 台湾(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇯🇵 日本(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
+      - 🇬🇧 英国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 7
+      - 🇦🇺 澳大利亚(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 8
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇩🇪 德国(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 9
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇩🇪 德国(TG频道:@kxswa) 2
+      - 🇨🇳 中国(TG频道:@kxswa) 10
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 2
+      - 🇬🇧 英国(TG频道:@kxswa) 3
+      - 🇨🇳 中国(TG频道:@kxswa) 11
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa) 4
+      - 🇬🇧 英国(TG频道:@kxswa) 5
+      - 乌克兰(TG频道:@kxswa)
+      - 乌克兰(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 4
+      - 🇮🇷 伊朗(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 5
+      - 🇮🇷 伊朗(TG频道:@kxswa) 2
+      - 🇺🇸 美国(TG频道:@kxswa) 6
+      - (TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 12
+      - 🇺🇸 美国(TG频道:@kxswa) 7
+      - 🇻🇳 越南(TG频道:@kxswa)
+      - 🇺🇸 美国(TG频道:@kxswa) 8
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇨🇳 中国(TG频道:@kxswa) 13
+      - 🇩🇪 德国(TG频道:@kxswa) 3
+      - (TG频道:@kxswa) 2
+      - (TG频道:@kxswa) 3
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1839,684 +1959,684 @@ rules:
  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
- - DOMAIN-SUFFIX,t.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tdesktop.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegra.ph,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegram.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegram.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telesco.pe,🚀 TG频道:@kxswa
- - IP-CIDR,91.108.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,109.239.140.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,149.154.160.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,edgedatg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,go.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,abema.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,abema.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ameba.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hayabusa.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,c4assets.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,channel4.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,avoddashs,🚀 TG频道:@kxswa
- - DOMAIN,atv-ps.amazon.com,🚀 TG频道:@kxswa
- - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,ktpx.amazon.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,aiv-cdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,aiv-delivery.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,amazonvideo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,media-amazon.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pv-cdn.net,🚀 TG频道:@kxswa
- - DOMAIN,gspe1-ssl.ls.apple.com,🚀 TG频道:@kxswa
- - DOMAIN,np-edge.itunes.apple.com,🚀 TG频道:@kxswa
- - DOMAIN,play-edge.itunes.apple.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tv.apple.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,bbcfmt,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,uk-live,🚀 TG频道:@kxswa
- - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN,aod-hls-uk-live.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN,vod-dash-uk-live.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN,vod-thumb-uk-live.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.co.uk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.net.uk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbci.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbci.co.uk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bidi.net.uk,🚀 TG频道:@kxswa
- - DOMAIN,gamer-cds.cdn.hinet.net,🚀 TG频道:@kxswa
- - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bahamut.com.tw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gamer.com.tw,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,voddazn,🚀 TG频道:@kxswa
- - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dazn-api.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dazn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dazndn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,indazn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,indaznlab.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sentry.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,deezer.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dzcdn.net,🚀 TG频道:@kxswa
- - DOMAIN,cdn.registerdisney.go.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,adobedtm.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bam.nr-data.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bamgrid.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,braze.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cdn.optimizely.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cws.conviva.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,d9.flashtalking.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disney-plus.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disney.demdex.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disney.my.sentry.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disneyplus.bn5x.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disneyplus.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disneystreaming.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dssott.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 TG频道:@kxswa
- - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,content.jwplatform.com,🚀 TG频道:@kxswa
- - DOMAIN,edge.api.brightcove.com,🚀 TG频道:@kxswa
- - DOMAIN,videos-f.jwpsrv.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,encoretvb.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fox.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,foxdcg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,uplynk.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbogo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbomax.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbonow.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,.hbogoasia.,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,hbogoasia,🚀 TG频道:@kxswa
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 TG频道:@kxswa
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasia1-i.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasia2-i.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasia3-i.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasia4-i.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasia5-i.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN,hboasialive.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN,hbogoprod-vod.akamaized.net,🚀 TG频道:@kxswa
- - DOMAIN,hbolb.onwardsmg.com,🚀 TG频道:@kxswa
- - DOMAIN,hbounify-prod.evergent.com,🚀 TG频道:@kxswa
- - DOMAIN,players.brightcove.net,🚀 TG频道:@kxswa
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hboasia.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbogoasia.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hbogoasia.hk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,5itv.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ocnttv.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulu.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,huluad.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,huluim.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulustream.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,happyon.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hjholdings.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulu.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,streaks.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,yb.uncn.jp,🚀 TG频道:@kxswa
- - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,itv.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,itvstatic.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,jooxweb-api,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,joox.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,japonx,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,japronx,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japonx.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japonx.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japonx.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japonx.vip,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japronx.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japronx.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japronx.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,japronx.vip,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kfs.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kkbox.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kkbox.com.tw,🚀 TG频道:@kxswa
- - DOMAIN,kktv-theater.kk.stream,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kktv.com.tw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kktv.me,🚀 TG频道:@kxswa
- - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,litv.tv,🚀 TG频道:@kxswa
- - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,linetv.tw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 TG频道:@kxswa
- - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,channel5.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,my5.tv,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,nowtv100,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,rthklive,🚀 TG频道:@kxswa
- - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 TG频道:@kxswa
- - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,mytvsuper.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tvb.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 TG频道:@kxswa
- - DOMAIN,netflix.com.edgesuite.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fast.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflix.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflix.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest0.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest1.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest2.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest3.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest4.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest5.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest6.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest7.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest8.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netflixdnstest9.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nflxext.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nflximg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nflximg.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nflxso.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nflxvideo.net,🚀 TG频道:@kxswa
- - IP-CIDR,8.41.4.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,23.246.0.0/18,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,34.210.42.111/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,37.77.184.0/21,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,38.72.126.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,45.57.0.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.89.124.203/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.148.37.5/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,64.120.128.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,66.197.128.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,69.53.224.0/19,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,103.87.204.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,108.175.32.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,185.2.220.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,185.9.188.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,192.173.64.0/18,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,198.38.96.0/19,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,198.45.48.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,207.45.72.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,208.75.76.0/22,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,dmc.nico,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nicovideo.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nimg.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pbs.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pandora.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,phncdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,phprcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pornhub.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pornhubpremium.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,qobuz.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,p-cdn.us,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sndcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,soundcloud.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,-spotify-com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,spotify.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pscdn.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,scdn.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spoti.fi,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spotify.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spotifycdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spotifycdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tidal.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tidalhifi.com,🚀 TG频道:@kxswa
- - DOMAIN,hamifans.emome.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,skyking.com.tw,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,-tiktokcdn-com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,byteoversea.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ibytedtos.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ipstatp.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,muscdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,musical.ly,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tik-tokapi.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tiktok.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tiktokcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tiktokv.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,ttvnw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ttvnw.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twitch.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twitchcdn.net,🚀 TG频道:@kxswa
- - DOMAIN,api.viu.now.com,🚀 TG频道:@kxswa
- - DOMAIN,d1k2us671qcoau.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN,dfp6rglgjqszk.cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bootstrapcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jwpcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jwplayer.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nowe.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,viu.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,viu.now.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,viu.tv,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,youtube,🚀 TG频道:@kxswa
- - DOMAIN,youtubei.googleapis.com,🚀 TG频道:@kxswa
- - DOMAIN,yt3.ggpht.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,googlevideo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gvt2.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,youtu.be,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,youtube.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ytimg.com,🚀 TG频道:@kxswa
- - DOMAIN,music.youtube.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,1password.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,adguard.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bit.no.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,btlibrary.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cccat.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cloudcone.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dubox.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gameloft.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,garena.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hoyolab.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,inoreader.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ip138.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,linkedin.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,myteamspeak.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,notion.so,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ping.pe,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,reddit.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,teddysun.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tumbex.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twdvd.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,unsplash.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,eu,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kr,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sg,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,uk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,us,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,1e100,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,abema,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,appledaily,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,avtb,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,beetalk,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,blogspot,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,dropbox,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,facebook,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,fbcdn,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,github,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,gmail,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,google,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,instagram,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,porn,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,sci-hub,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,spotify,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,telegram,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,twitter,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,whatsapp,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,youtube,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,4sqi.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,adobedtm.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ampproject.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,android.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,aolcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,apkmirror.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,apkpure.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,app-measurement.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,appspot.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,archive.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,armorgames.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,aspnetcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,awsstatic.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,azureedge.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,azurewebsites.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bandwagonhost.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bing.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bkrtx.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogger.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogsmithmedia.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogspot.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogspot.hk,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,blogspot.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bloomberg.cn,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bloomberg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,box.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cachefly.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cdnst.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,cloudfront.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,comodoca.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,daum.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,demdex.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,deskconnect.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disqus.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,disquscdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dropbox.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dropboxapi.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dropboxstatic.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dropboxusercontent.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,duckduckgo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,edgecastcdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,edgekey.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,edgesuite.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,eurekavpt.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fastmail.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,flickr.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,flipboard.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gfx.ms,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gongm.in,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hulu.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,id.heroku.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,io.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,issuu.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ixquick.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kat.cr,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kik.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kobo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kobobooks.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,licdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,live.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,livefilestore.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,llnwd.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,macrumors.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,medium.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,mega.nz,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,megaupload.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,messenger.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,netdna-cdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nintendo.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nsstatic.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nytstyle.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,overcast.fm,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,openvpn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,periscope.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pinimg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pinterest.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,potato.im,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,prfct.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pscp.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,quora.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,resilio.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sfx.ms,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,shadowsocks.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,slack-edge.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sndcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,soundcloud.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,startpage.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,staticflickr.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,symauth.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,symcb.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,symcd.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,textnow.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,textnow.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,thefacebook.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,thepiratebay.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,torproject.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,trustasiassl.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tumblr.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tumblr.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tvb.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,txmblr.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,v2ex.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,vimeo.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,vine.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,vox-cdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,amazon.co.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,amazon.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,amazonaws.com,🚀 TG频道:@kxswa
- - IP-CIDR,13.32.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,13.35.0.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,18.184.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,18.194.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,18.208.0.0/13,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,18.232.0.0/14,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.58.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.74.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.77.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.84.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,52.200.0.0/13,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.93.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.156.0.0/14,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.226.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.230.156.0/22,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-KEYWORD,uk-live,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bbc.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,apache.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,docker.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,elastic.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,elastic.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gcr.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gitlab.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gitlab.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jitpack.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,maven.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,medium.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,mvnrepository.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,quay.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,reddit.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,redhat.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sonatype.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sourcegraph.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spring.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spring.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,stackoverflow.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discord.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discord.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discord.gg,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discord.media,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discordapp.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,discordapp.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,facebook.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fb.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fb.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fbcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fbcdn.net,🚀 TG频道:@kxswa
- - IP-CIDR,31.13.24.0/21,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,31.13.64.0/18,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,45.64.40.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,66.220.144.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,69.63.176.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,69.171.224.0/19,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,74.119.76.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,103.4.96.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,129.134.0.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,157.240.0.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,173.252.64.0/18,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,179.60.192.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,185.60.216.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,204.15.20.0/22,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,github.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,github.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,githubapp.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,githubassets.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,githubusercontent.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,1e100.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,2mdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,app-measurement.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,g.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ggpht.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,goo.gl,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,googleapis.cn,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,googleapis.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gstatic.cn,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gstatic.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gvt0.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gvt1.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gvt2.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,gvt3.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,youtu.be,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,youtube.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,yt.be,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ytimg.com,🚀 TG频道:@kxswa
- - IP-CIDR,74.125.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,173.194.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.232.181.162/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.241.147.226/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.253.253.226/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.253.255.162/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.253.255.34/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,120.253.255.98/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,180.163.150.162/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,180.163.150.34/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,180.163.151.162/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,180.163.151.34/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.208.39.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.208.40.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.208.41.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.208.43.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.208.50.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,220.181.174.162/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,220.181.174.226/32,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,220.181.174.34/32,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,cdninstagram.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,instagram.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,instagr.am,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kakao.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kakao.co.kr,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,kakaocdn.net,🚀 TG频道:@kxswa
- - IP-CIDR,1.201.0.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,27.0.236.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,103.27.148.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,103.246.56.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,110.76.140.0/22,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,113.61.104.0/22,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,lin.ee,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,line-apps.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,line-cdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,line-scdn.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,line.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,line.naver.jp,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,nhncorp.jp,🚀 TG频道:@kxswa
- - IP-CIDR,103.2.28.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,103.2.30.0/23,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,119.235.224.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,119.235.232.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,119.235.235.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,119.235.236.0/23,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,147.92.128.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,203.104.128.0/19,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-KEYWORD,1drv,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,onedrive,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,skydrive,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,livefilestore.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,onedrive.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,onedrive.live.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,photos.live.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,storage.live.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,storage.msn.com,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,porn,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,8teenxxx.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ahcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bcvcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,bongacams.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,chaturbate.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,dditscdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,livejasmin.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,phncdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,phprcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pornhub.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pornhubpremium.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,rdtcdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,redtube.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,sb-cd.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,spankbang.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,t66y.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xhamster.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xnxx-cdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xnxx.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,xvideos.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ypncdn.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pixiv.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,pximg.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,amplitude.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,hockeyapp.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,readdle.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,smartmailcloud.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,fanatical.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,humblebundle.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,steamcommunity.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tap.io,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,taptap.tw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twitch.tv,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ttvnw.net,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@kxswa
- - DOMAIN-KEYWORD,ttvnw,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,t.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twimg.co,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twimg.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,twimg.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,t.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,tdesktop.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegra.ph,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegram.me,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telegram.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,telesco.pe,🚀 TG频道:@kxswa
- - IP-CIDR,91.108.0.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,109.239.140.0/24,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,149.154.160.0/20,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,terabox.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,teraboxcdn.com,🚀 TG频道:@kxswa
- - IP-CIDR,18.194.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,34.224.0.0/12,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,54.242.0.0/15,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,50.22.198.204/30,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,208.43.122.128/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,108.168.174.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,173.192.231.32/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,158.85.5.192/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,174.37.243.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,158.85.46.128/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,173.192.222.160/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,184.173.128.0/17,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,158.85.224.160/27,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,75.126.150.0/16,🚀 TG频道:@kxswa,no-resolve
- - IP-CIDR,69.171.235.0/16,🚀 TG频道:@kxswa,no-resolve
- - DOMAIN-SUFFIX,mediawiki.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikibooks.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikidata.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikileaks.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikimedia.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikinews.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikipedia.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikiquote.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikisource.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikiversity.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wikivoyage.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,wiktionary.org,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,neulion.com,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,icntv.xyz,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 TG频道:@kxswa
- - DOMAIN-SUFFIX,ocnttv.com,🚀 TG频道:@kxswa
+ - DOMAIN-SUFFIX,t.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tdesktop.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegra.ph,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegram.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegram.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telesco.pe,🚀 TG频道:@KXSWA
+ - IP-CIDR,91.108.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,109.239.140.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,149.154.160.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,edgedatg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,go.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,abema.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,abema.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ameba.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hayabusa.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,c4assets.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,channel4.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,avoddashs,🚀 TG频道:@KXSWA
+ - DOMAIN,atv-ps.amazon.com,🚀 TG频道:@KXSWA
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,ktpx.amazon.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,aiv-cdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,aiv-delivery.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,amazonvideo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,media-amazon.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pv-cdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN,gspe1-ssl.ls.apple.com,🚀 TG频道:@KXSWA
+ - DOMAIN,np-edge.itunes.apple.com,🚀 TG频道:@KXSWA
+ - DOMAIN,play-edge.itunes.apple.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tv.apple.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,bbcfmt,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,uk-live,🚀 TG频道:@KXSWA
+ - DOMAIN,aod-dash-uk-live.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN,aod-hls-uk-live.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN,vod-dash-uk-live.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN,vod-thumb-uk-live.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.co.uk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.net.uk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbci.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbci.co.uk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bidi.net.uk,🚀 TG频道:@KXSWA
+ - DOMAIN,gamer-cds.cdn.hinet.net,🚀 TG频道:@KXSWA
+ - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bahamut.com.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gamer.com.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,voddazn,🚀 TG频道:@KXSWA
+ - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dazn-api.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dazn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dazndn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,indazn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,indaznlab.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sentry.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,deezer.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dzcdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN,cdn.registerdisney.go.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,adobedtm.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bam.nr-data.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bamgrid.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,braze.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cdn.optimizely.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cdn.registerdisney.go.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cws.conviva.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,d9.flashtalking.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disney-plus.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disney.demdex.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disney.my.sentry.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disneyplus.bn5x.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disneyplus.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disneystreaming.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dssott.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,js-agent.newrelic.com,🚀 TG频道:@KXSWA
+ - DOMAIN,bcbolt446c5271-a.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,content.jwplatform.com,🚀 TG频道:@KXSWA
+ - DOMAIN,edge.api.brightcove.com,🚀 TG频道:@KXSWA
+ - DOMAIN,videos-f.jwpsrv.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,encoretvb.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,foxdcg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,uplynk.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbogo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbomax.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbonow.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,.hbogoasia.,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,hbogoasia,🚀 TG频道:@KXSWA
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 TG频道:@KXSWA
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasia1-i.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasia2-i.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasia3-i.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasia4-i.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasia5-i.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hboasialive.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hbogoprod-vod.akamaized.net,🚀 TG频道:@KXSWA
+ - DOMAIN,hbolb.onwardsmg.com,🚀 TG频道:@KXSWA
+ - DOMAIN,hbounify-prod.evergent.com,🚀 TG频道:@KXSWA
+ - DOMAIN,players.brightcove.net,🚀 TG频道:@KXSWA
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hboasia.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbogoasia.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hbogoasia.hk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,5itv.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ocnttv.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cws-hulu.conviva.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulu.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,huluad.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,huluim.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulustream.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,happyon.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hjholdings.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulu.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,prod.hjholdings.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,streaks.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,yb.uncn.jp,🚀 TG频道:@KXSWA
+ - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,itv.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,itvstatic.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,jooxweb-api,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,joox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,japonx,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,japronx,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japonx.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japonx.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japonx.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japonx.vip,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japronx.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japronx.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japronx.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,japronx.vip,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kfs.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kkbox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kkbox.com.tw,🚀 TG频道:@KXSWA
+ - DOMAIN,kktv-theater.kk.stream,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kktv.com.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kktv.me,🚀 TG频道:@KXSWA
+ - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,litv.tv,🚀 TG频道:@KXSWA
+ - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,linetv.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,profile.line-scdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,channel5.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,my5.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,nowtv100,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,rthklive,🚀 TG频道:@KXSWA
+ - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 TG频道:@KXSWA
+ - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,mytvsuper.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tvb.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 TG频道:@KXSWA
+ - DOMAIN,netflix.com.edgesuite.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fast.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflix.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflix.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest0.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest1.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest2.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest3.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest4.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest5.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest6.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest7.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest8.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netflixdnstest9.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nflxext.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nflximg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nflximg.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nflxso.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nflxvideo.net,🚀 TG频道:@KXSWA
+ - IP-CIDR,8.41.4.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,23.246.0.0/18,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,34.210.42.111/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,37.77.184.0/21,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,38.72.126.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,45.57.0.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.89.124.203/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.148.37.5/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,64.120.128.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,66.197.128.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,69.53.224.0/19,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,103.87.204.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,108.175.32.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,185.2.220.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,185.9.188.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,192.173.64.0/18,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,198.38.96.0/19,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,198.45.48.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,207.45.72.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,208.75.76.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,dmc.nico,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nicovideo.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nimg.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pbs.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pandora.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,phncdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,phprcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pornhub.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pornhubpremium.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,qobuz.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,p-cdn.us,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sndcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,soundcloud.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,-spotify-com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,spotify.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pscdn.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,scdn.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spoti.fi,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spotify.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spotifycdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spotifycdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tidal.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tidalhifi.com,🚀 TG频道:@KXSWA
+ - DOMAIN,hamifans.emome.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,skyking.com.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,byteoversea.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ibytedtos.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ipstatp.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,muscdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,musical.ly,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tik-tokapi.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tiktok.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tiktokcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tiktokv.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,ttvnw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ttvnw.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twitch.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twitchcdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN,api.viu.now.com,🚀 TG频道:@KXSWA
+ - DOMAIN,d1k2us671qcoau.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN,dfp6rglgjqszk.cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bootstrapcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jwpcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jwplayer.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nowe.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,viu.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,viu.now.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,viu.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,youtube,🚀 TG频道:@KXSWA
+ - DOMAIN,youtubei.googleapis.com,🚀 TG频道:@KXSWA
+ - DOMAIN,yt3.ggpht.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,googlevideo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gvt2.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,youtu.be,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,youtube.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ytimg.com,🚀 TG频道:@KXSWA
+ - DOMAIN,music.youtube.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,1password.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,adguard.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bit.no.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,btlibrary.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cccat.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cloudcone.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dubox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gameloft.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,garena.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hoyolab.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,inoreader.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ip138.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,linkedin.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,myteamspeak.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,notion.so,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ping.pe,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,reddit.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,teddysun.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tumbex.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twdvd.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,unsplash.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,eu,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kr,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sg,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,uk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,us,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,1e100,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,abema,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,appledaily,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,avtb,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,beetalk,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,blogspot,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,dropbox,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,facebook,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,fbcdn,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,github,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,gmail,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,google,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,instagram,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,porn,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,sci-hub,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,spotify,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,telegram,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,twitter,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,whatsapp,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,youtube,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,4sqi.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,adobedtm.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ampproject.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,android.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,aolcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,apkmirror.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,apkpure.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,app-measurement.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,appspot.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,archive.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,armorgames.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,aspnetcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,awsstatic.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,azureedge.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,azurewebsites.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bandwagonhost.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bing.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bkrtx.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogger.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogsmithmedia.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogspot.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogspot.hk,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,blogspot.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bloomberg.cn,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bloomberg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,box.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cachefly.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cdnst.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,cloudfront.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,comodoca.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,daum.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,demdex.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,deskconnect.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disqus.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,disquscdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dropbox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dropboxapi.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dropboxstatic.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,duckduckgo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,edgecastcdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,edgekey.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,edgesuite.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,eurekavpt.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fastmail.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,flickr.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,flipboard.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gfx.ms,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gongm.in,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hulu.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,id.heroku.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,io.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,issuu.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ixquick.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kat.cr,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kik.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kobo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kobobooks.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,licdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,live.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,livefilestore.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,llnwd.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,macrumors.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,medium.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,mega.nz,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,megaupload.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,messenger.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,netdna-cdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nintendo.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nsstatic.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nytstyle.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,overcast.fm,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,openvpn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,periscope.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pinimg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pinterest.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,potato.im,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,prfct.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pscp.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,quora.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,resilio.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sfx.ms,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,shadowsocks.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,slack-edge.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,smartdnsproxy.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sndcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,soundcloud.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,startpage.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,staticflickr.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,symauth.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,symcb.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,symcd.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,textnow.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,textnow.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,thefacebook.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,thepiratebay.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,torproject.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,trustasiassl.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tumblr.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tumblr.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tvb.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,txmblr.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,v2ex.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,vimeo.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,vine.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,vox-cdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,amazon.co.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,amazon.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,amazonaws.com,🚀 TG频道:@KXSWA
+ - IP-CIDR,13.32.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,13.35.0.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,18.184.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,18.194.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,18.208.0.0/13,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,18.232.0.0/14,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.58.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.74.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.77.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.84.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,52.200.0.0/13,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.93.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.156.0.0/14,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.226.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.230.156.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-KEYWORD,uk-live,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bbc.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,apache.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,docker.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,elastic.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,elastic.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gcr.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gitlab.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gitlab.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jitpack.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,maven.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,medium.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,mvnrepository.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,quay.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,reddit.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,redhat.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sonatype.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sourcegraph.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spring.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spring.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,stackoverflow.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discord.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discord.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discord.gg,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discord.media,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discordapp.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,discordapp.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,facebook.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fb.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fb.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fbcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fbcdn.net,🚀 TG频道:@KXSWA
+ - IP-CIDR,31.13.24.0/21,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,31.13.64.0/18,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,45.64.40.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,66.220.144.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,69.63.176.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,69.171.224.0/19,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,74.119.76.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,103.4.96.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,129.134.0.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,157.240.0.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,173.252.64.0/18,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,179.60.192.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,185.60.216.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,204.15.20.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,github.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,github.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,githubapp.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,githubassets.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,githubusercontent.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,1e100.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,2mdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,app-measurement.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,g.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ggpht.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,goo.gl,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,googleapis.cn,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,googleapis.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gstatic.cn,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gstatic.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gvt0.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gvt1.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gvt2.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,gvt3.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,youtu.be,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,youtube.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,yt.be,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ytimg.com,🚀 TG频道:@KXSWA
+ - IP-CIDR,74.125.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,173.194.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.232.181.162/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.241.147.226/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.253.253.226/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.253.255.162/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.253.255.34/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,120.253.255.98/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,180.163.150.162/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,180.163.150.34/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,180.163.151.162/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,180.163.151.34/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.208.39.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.208.40.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.208.41.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.208.43.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.208.50.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,220.181.174.162/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,220.181.174.226/32,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,220.181.174.34/32,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,cdninstagram.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,instagram.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,instagr.am,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kakao.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kakao.co.kr,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,kakaocdn.net,🚀 TG频道:@KXSWA
+ - IP-CIDR,1.201.0.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,27.0.236.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,103.27.148.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,103.246.56.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,110.76.140.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,113.61.104.0/22,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,lin.ee,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,line-apps.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,line-cdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,line-scdn.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,line.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,line.naver.jp,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,nhncorp.jp,🚀 TG频道:@KXSWA
+ - IP-CIDR,103.2.28.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,103.2.30.0/23,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,119.235.224.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,119.235.232.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,119.235.235.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,119.235.236.0/23,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,147.92.128.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,203.104.128.0/19,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-KEYWORD,1drv,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,onedrive,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,skydrive,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,livefilestore.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,oneclient.sfx.ms,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,onedrive.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,onedrive.live.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,photos.live.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,skydrive.wns.windows.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,storage.live.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,storage.msn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,porn,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,8teenxxx.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ahcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bcvcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,bongacams.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,chaturbate.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,dditscdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,livejasmin.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,phncdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,phprcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pornhub.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pornhubpremium.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,rdtcdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,redtube.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,sb-cd.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,spankbang.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,t66y.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xhamster.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xnxx-cdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xnxx.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xvideos-cdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,xvideos.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ypncdn.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pixiv.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,pximg.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,amplitude.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,firebaseio.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,hockeyapp.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,readdle.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,smartmailcloud.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,fanatical.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,humblebundle.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,steamcommunity.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tap.io,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,taptap.tw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twitch.tv,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ttvnw.net,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,jtvnw.net,🚀 TG频道:@KXSWA
+ - DOMAIN-KEYWORD,ttvnw,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,t.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twimg.co,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twimg.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,twimg.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,t.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,tdesktop.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegra.ph,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegram.me,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telegram.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,telesco.pe,🚀 TG频道:@KXSWA
+ - IP-CIDR,91.108.0.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,109.239.140.0/24,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,149.154.160.0/20,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 TG频道:@KXSWA
+ - IP-CIDR,18.194.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,34.224.0.0/12,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,54.242.0.0/15,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,50.22.198.204/30,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,208.43.122.128/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,108.168.174.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,173.192.231.32/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,158.85.5.192/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,174.37.243.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,158.85.46.128/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,173.192.222.160/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,184.173.128.0/17,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,158.85.224.160/27,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,75.126.150.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - IP-CIDR,69.171.235.0/16,🚀 TG频道:@KXSWA,no-resolve
+ - DOMAIN-SUFFIX,mediawiki.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikibooks.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikidata.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikileaks.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikimedia.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikinews.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikipedia.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikiquote.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikisource.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikiversity.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wikivoyage.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,wiktionary.org,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,neulion.com,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,icntv.xyz,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 TG频道:@KXSWA
+ - DOMAIN-SUFFIX,ocnttv.com,🚀 TG频道:@KXSWA
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
