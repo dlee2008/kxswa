@@ -8,4 +8,5 @@
 - base64格式(适用于v2ray、小火箭等)  
 https://raw.githubusercontent.com/kxswa/k/k/long  
 - yaml格式(适用于clash)  
-https://raw.githubusercontent.com/kxswa/k/k/yaml
+https://raw.githubusercontent.com/kxswa/k/k/yaml  
+#### 建议每天更新一次订阅
