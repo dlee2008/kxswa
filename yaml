@@ -67,7 +67,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa) 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: 🇨🇳 中国(TG频道:@kxswa) 9, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
 proxy-groups:
-  - name: 🔰 TG频道:@KXSWA
+  - name: 🔰 TG频道:@kxswa
     type: select
     proxies:
       - ♻️ 自动选择
@@ -18676,4 +18676,4 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,DIRECT
  - DOMAIN-SUFFIX,tendawifi.com,DIRECT
  - DOMAIN-SUFFIX,zte.home,DIRECT
- - MATCH,🔰 TG频道:@KXSWA
+ - MATCH,🔰 TG频道:@kxswa
