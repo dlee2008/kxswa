@@ -5,67 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于05/29, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa), server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa), server: zxsg.jietiyun.xyz, port: 11101, type: trojan, password: c9db0aad-e6a9-4a7e-9285-b88302c35346, sni: zxsg.jietiyun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 2, server: ppy-cmcc.0098dns02in.work, port: 26014, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 3, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 4, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 5, server: ppy-cmcc.0098dns02in.work, port: 26014, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 6, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 7, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 8, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 9, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 10, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 11, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 12, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 13, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 14, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 15, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 16, server: ppy-giacn2.0098dns02in.work, port: 26004, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 17, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 18, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 19, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
-  - {name: 日本(TG频道:@kxswa) 20, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 21, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 22, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 2, server: 129.226.217.139, port: 35846, type: vmess, uuid: 5d468799-dff3-4ecd-8323-c3ee23094069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 3, server: 129.226.217.71, port: 24000, type: vmess, uuid: 8155e01b-1b54-410d-9550-555390a90d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 23, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 4, server: 129.226.216.121, port: 49381, type: vmess, uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 5, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 6, server: 129.226.93.198, port: 57696, type: vmess, uuid: 1ec2c6a9-f727-412d-a433-fbb87c3aca50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 24, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 25, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 26, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 27, server: ppy-giacn2.0098dns02in.work, port: 26004, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 7, server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 8, server: 129.226.217.71, port: 24000, type: vmess, uuid: 8155e01b-1b54-410d-9550-555390a90d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 9, server: 129.226.215.114, port: 39927, type: vmess, uuid: 0783b758-2388-4389-f9c0-d84fceab1ad6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 28, server: ppy-cmcc.0098dns02in.work, port: 26060, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 10, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 11, server: 129.226.94.145, port: 51848, type: vmess, uuid: ad4757f1-e28c-47b8-970c-51b232c653d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 12, server: 129.226.217.139, port: 35846, type: vmess, uuid: 5d468799-dff3-4ecd-8323-c3ee23094069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 29, server: ppy-giacn2.0098dns02in.work, port: 26003, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 30, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 13, server: 129.226.95.12, port: 14597, type: vmess, uuid: 4d346473-716f-404a-819c-e56fc07b0234, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 2, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 31, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 3, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 98eb785b-565a-4042-a404-fc44fd4fc4b5, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 32, server: ppy-cmcc.0098dns02in.work, port: 26059, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 14, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa), server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 中国(TG频道:@kxswa) 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 日本(TG频道:@kxswa) 33, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
-  - {name: (TG频道:@kxswa), server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 15, server: 129.226.214.156, port: 27734, type: vmess, uuid: 8f4cd612-6593-4826-bb55-09bed5215aed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 16, server: 129.226.217.168, port: 15322, type: vmess, uuid: 7676a524-3603-473e-de41-2bc6273d52fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 日本(TG频道:@kxswa) 34, server: ppy-cmcc.0098dns02in.work, port: 26062, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 17, server: 129.226.215.176, port: 46601, type: vmess, uuid: 57becf81-97bd-46fe-8022-a4bfbca4df8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度(TG频道:@kxswa), server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa) 35, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: 更新于05/29, server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港实验性 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港实验性 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 10101, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本实验性 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 10102, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡实验性 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 10103, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国实验性 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 10104, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港高级 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 12101, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12102, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12103, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本高级 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 12111, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本高级 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 12112, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本高级 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 12113, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡高级 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 12131, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12132, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12133, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾高级 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 12141, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾高级 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 12142, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾高级 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 12143, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国高级 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 12121, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国高级 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 12122, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国高级 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 12123, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11101, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11102, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11103, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 4, server: gzdata1.ourdvsss.xyz, port: 11104, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 5, server: gzdata1.ourdvsss.xyz, port: 11105, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 6, server: gzdata1.ourdvsss.xyz, port: 11106, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 7, server: gzdata1.ourdvsss.xyz, port: 11107, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-香港标准 IEPL 中继 8, server: gzdata1.ourdvsss.xyz, port: 11108, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11111, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11112, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 11113, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 4, server: shdata1.ourdvsss.xyz, port: 11114, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 5, server: shdata1.ourdvsss.xyz, port: 11115, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 6, server: shdata1.ourdvsss.xyz, port: 11116, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 7, server: shdata1.ourdvsss.xyz, port: 11117, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-日本标准 IEPL 中继 8, server: shdata1.ourdvsss.xyz, port: 11118, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11131, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11132, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11133, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 4, server: gzdata1.ourdvsss.xyz, port: 11134, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 5, server: gzdata1.ourdvsss.xyz, port: 11135, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 6, server: gzdata1.ourdvsss.xyz, port: 11136, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 7, server: gzdata1.ourdvsss.xyz, port: 11137, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-新加坡标准 IEPL 中继 8, server: gzdata1.ourdvsss.xyz, port: 11138, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11141, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾标准 IEPL 中继 2, server: gzdata1.ourdvsss.xyz, port: 11142, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-台湾标准 IEPL 中继 3, server: gzdata1.ourdvsss.xyz, port: 11143, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11121, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11122, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 3, server: shdata1.ourdvsss.xyz, port: 11123, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 4, server: shdata1.ourdvsss.xyz, port: 11124, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 5, server: shdata1.ourdvsss.xyz, port: 11125, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 6, server: shdata1.ourdvsss.xyz, port: 11126, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 7, server: shdata1.ourdvsss.xyz, port: 11127, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-美国标准 IEPL 中继 8, server: shdata1.ourdvsss.xyz, port: 11128, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-俄罗斯标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11150, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-乌克兰标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11151, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-意大利标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11152, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-匈牙利标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11153, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-土耳其标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11154, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-土耳其标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11155, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-德国标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11156, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-德国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11157, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-英国标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11158, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-英国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11159, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-荷兰标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11160, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-荷兰标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11161, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-法国标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11162, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-法国标准 IEPL 中继 2, server: bjdata1.ourdvsss.xyz, port: 11163, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-加拿大标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11164, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-加拿大标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11165, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-阿根廷标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11166, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-巴西标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11167, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-智利标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11168, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-澳洲标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11169, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-韩国标准 IEPL 中继, server: shdata1.ourdvsss.xyz, port: 11170, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-韩国标准 IEPL 中继 2, server: shdata1.ourdvsss.xyz, port: 11171, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: shdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-印尼标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11172, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-泰国标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11173, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-越南标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11174, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-印度标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11180, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-以色列标准 IEPL 中继, server: bjdata1.ourdvsss.xyz, port: 11181, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: bjdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-阿联酋标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11182, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-菲律宾标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11183, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-马来西亚标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11184, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa-南非标准 IEPL 中继, server: gzdata1.ourdvsss.xyz, port: 11185, type: trojan, password: E88FDE8A-8E54-C28D-E7A8-E5863A732330, sni: gzdata1.ourdvsss.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 TG频道:@kxswa
     type: select
@@ -73,132 +99,184 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -206,66 +284,92 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -285,70 +389,115 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
       - 🔰 TG频道:@kxswa
   - name: Ⓜ️ 微软服务
     type: select
@@ -356,132 +505,184 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 TG频道:@kxswa
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 TG频道:@kxswa
       - 🎯 全球直连
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -489,66 +690,92 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -565,66 +792,92 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 更新于05/29
-      - 日本(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 4
-      - 日本(TG频道:@kxswa) 5
-      - 日本(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 7
-      - 日本(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 10
-      - 日本(TG频道:@kxswa) 11
-      - 日本(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 13
-      - 日本(TG频道:@kxswa) 14
-      - 日本(TG频道:@kxswa) 15
-      - 日本(TG频道:@kxswa) 16
-      - 日本(TG频道:@kxswa) 17
-      - 日本(TG频道:@kxswa) 18
-      - 日本(TG频道:@kxswa) 19
-      - 日本(TG频道:@kxswa) 20
-      - 日本(TG频道:@kxswa) 21
-      - 日本(TG频道:@kxswa) 22
-      - 新加坡(TG频道:@kxswa) 2
-      - 新加坡(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 23
-      - 新加坡(TG频道:@kxswa) 4
-      - 新加坡(TG频道:@kxswa) 5
-      - 新加坡(TG频道:@kxswa) 6
-      - 日本(TG频道:@kxswa) 24
-      - 日本(TG频道:@kxswa) 25
-      - 日本(TG频道:@kxswa) 26
-      - 日本(TG频道:@kxswa) 27
-      - 新加坡(TG频道:@kxswa) 7
-      - 新加坡(TG频道:@kxswa) 8
-      - 新加坡(TG频道:@kxswa) 9
-      - 日本(TG频道:@kxswa) 28
-      - 新加坡(TG频道:@kxswa) 10
-      - 新加坡(TG频道:@kxswa) 11
-      - 美国(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 12
-      - 日本(TG频道:@kxswa) 29
-      - 日本(TG频道:@kxswa) 30
-      - 新加坡(TG频道:@kxswa) 13
-      - 美国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 31
-      - 美国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 32
-      - 新加坡(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa)
-      - 中国(TG频道:@kxswa) 2
-      - 日本(TG频道:@kxswa) 33
-      - (TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 15
-      - 新加坡(TG频道:@kxswa) 16
-      - 中国(TG频道:@kxswa) 3
-      - 日本(TG频道:@kxswa) 34
-      - 新加坡(TG频道:@kxswa) 17
-      - 印度(TG频道:@kxswa)
-      - 日本(TG频道:@kxswa) 35
+      - TG频道:@kxswa-香港实验性 IEPL 中继
+      - TG频道:@kxswa-香港实验性 IEPL 中继 2
+      - TG频道:@kxswa-日本实验性 IEPL 中继
+      - TG频道:@kxswa-新加坡实验性 IEPL 中继
+      - TG频道:@kxswa-美国实验性 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继
+      - TG频道:@kxswa-香港高级 IEPL 中继 2
+      - TG频道:@kxswa-香港高级 IEPL 中继 3
+      - TG频道:@kxswa-日本高级 IEPL 中继
+      - TG频道:@kxswa-日本高级 IEPL 中继 2
+      - TG频道:@kxswa-日本高级 IEPL 中继 3
+      - TG频道:@kxswa-新加坡高级 IEPL 中继
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 2
+      - TG频道:@kxswa-新加坡高级 IEPL 中继 3
+      - TG频道:@kxswa-台湾高级 IEPL 中继
+      - TG频道:@kxswa-台湾高级 IEPL 中继 2
+      - TG频道:@kxswa-台湾高级 IEPL 中继 3
+      - TG频道:@kxswa-美国高级 IEPL 中继
+      - TG频道:@kxswa-美国高级 IEPL 中继 2
+      - TG频道:@kxswa-美国高级 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继
+      - TG频道:@kxswa-香港标准 IEPL 中继 2
+      - TG频道:@kxswa-香港标准 IEPL 中继 3
+      - TG频道:@kxswa-香港标准 IEPL 中继 4
+      - TG频道:@kxswa-香港标准 IEPL 中继 5
+      - TG频道:@kxswa-香港标准 IEPL 中继 6
+      - TG频道:@kxswa-香港标准 IEPL 中继 7
+      - TG频道:@kxswa-香港标准 IEPL 中继 8
+      - TG频道:@kxswa-日本标准 IEPL 中继
+      - TG频道:@kxswa-日本标准 IEPL 中继 2
+      - TG频道:@kxswa-日本标准 IEPL 中继 3
+      - TG频道:@kxswa-日本标准 IEPL 中继 4
+      - TG频道:@kxswa-日本标准 IEPL 中继 5
+      - TG频道:@kxswa-日本标准 IEPL 中继 6
+      - TG频道:@kxswa-日本标准 IEPL 中继 7
+      - TG频道:@kxswa-日本标准 IEPL 中继 8
+      - TG频道:@kxswa-新加坡标准 IEPL 中继
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 2
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 3
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 4
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 5
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 6
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 7
+      - TG频道:@kxswa-新加坡标准 IEPL 中继 8
+      - TG频道:@kxswa-台湾标准 IEPL 中继
+      - TG频道:@kxswa-台湾标准 IEPL 中继 2
+      - TG频道:@kxswa-台湾标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继
+      - TG频道:@kxswa-美国标准 IEPL 中继 2
+      - TG频道:@kxswa-美国标准 IEPL 中继 3
+      - TG频道:@kxswa-美国标准 IEPL 中继 4
+      - TG频道:@kxswa-美国标准 IEPL 中继 5
+      - TG频道:@kxswa-美国标准 IEPL 中继 6
+      - TG频道:@kxswa-美国标准 IEPL 中继 7
+      - TG频道:@kxswa-美国标准 IEPL 中继 8
+      - TG频道:@kxswa-俄罗斯标准 IEPL 中继
+      - TG频道:@kxswa-乌克兰标准 IEPL 中继
+      - TG频道:@kxswa-意大利标准 IEPL 中继
+      - TG频道:@kxswa-匈牙利标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继
+      - TG频道:@kxswa-土耳其标准 IEPL 中继 2
+      - TG频道:@kxswa-德国标准 IEPL 中继
+      - TG频道:@kxswa-德国标准 IEPL 中继 2
+      - TG频道:@kxswa-英国标准 IEPL 中继
+      - TG频道:@kxswa-英国标准 IEPL 中继 2
+      - TG频道:@kxswa-荷兰标准 IEPL 中继
+      - TG频道:@kxswa-荷兰标准 IEPL 中继 2
+      - TG频道:@kxswa-法国标准 IEPL 中继
+      - TG频道:@kxswa-法国标准 IEPL 中继 2
+      - TG频道:@kxswa-加拿大标准 IEPL 中继
+      - TG频道:@kxswa-加拿大标准 IEPL 中继 2
+      - TG频道:@kxswa-阿根廷标准 IEPL 中继
+      - TG频道:@kxswa-巴西标准 IEPL 中继
+      - TG频道:@kxswa-智利标准 IEPL 中继
+      - TG频道:@kxswa-澳洲标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继
+      - TG频道:@kxswa-韩国标准 IEPL 中继 2
+      - TG频道:@kxswa-印尼标准 IEPL 中继
+      - TG频道:@kxswa-泰国标准 IEPL 中继
+      - TG频道:@kxswa-越南标准 IEPL 中继
+      - TG频道:@kxswa-印度标准 IEPL 中继
+      - TG频道:@kxswa-以色列标准 IEPL 中继
+      - TG频道:@kxswa-阿联酋标准 IEPL 中继
+      - TG频道:@kxswa-菲律宾标准 IEPL 中继
+      - TG频道:@kxswa-马来西亚标准 IEPL 中继
+      - TG频道:@kxswa-南非标准 IEPL 中继
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
