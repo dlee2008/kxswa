@@ -5,344 +5,1703 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于06/02, server: sg.azure.fnyun.cyou, port: 46443, type: vmess, uuid: 6fa984b6-f341-491a-8f64-2f39ba3e3d36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg.azure.fnyun.cyou}, udp: true}
-  - {name: 关注TG频道获取更多高速节点, server: 20.247.1.93, port: 46794, type: vmess, uuid: 704a1fa3-dd75-45f8-aa66-0a750e536a1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 台湾(TG频道:@kxswa), server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: 6dcfe99d-90ac-433d-9c8d-f952841ed740, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: hk.xxnmsl.com, port: 80, type: vmess, uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 2, server: hk.azure.fnyun.cyou, port: 16443, type: vmess, uuid: 6fa984b6-f341-491a-8f64-2f39ba3e3d36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk.azure.fnyun.cyou}, udp: true}
-  - {name: 韩国(TG频道:@kxswa), server: 20.196.195.216, port: 80, type: vmess, uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.196.195.216}, udp: true}
-  - {name: 韩国(TG频道:@kxswa) 2, server: kr.xxnmsl.com, port: 80, type: vmess, uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.xxnmsl.com}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 3, server: 20.243.65.133, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 美国(TG频道:@kxswa) 4, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 5, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 6, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 7, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 8, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 日本(TG频道:@kxswa), server: v2-1.godlight.xyz, port: 250, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /j75g1461x, ws-headers: {Host: v2-1.godlight.xyz}, udp: true}
-  - {name: 俄罗斯联邦(TG频道:@kxswa), server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: 加拿大(TG频道:@kxswa), server: 134.195.196.231, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 新加坡(TG频道:@kxswa), server: sghe.tjvpn.org, port: 443, type: trojan, password: 253152b0-e018-11ec-b935-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa), server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 法国(TG频道:@kxswa), server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
-  - {name: 俄罗斯联邦(TG频道:@kxswa) 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 331tw.fans8.xyz}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 9, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 2, server: 134.195.196.231, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(TG频道:@kxswa) 10, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 3, server: 134.195.196.231, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 香港(TG频道:@kxswa), server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: azhk.102498.eu.org}, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 4, server: 134.195.196.231, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 澳大利亚(TG频道:@kxswa), server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa) 2, server: 165.22.57.231, port: 1089, type: vmess, uuid: 704a1fa3-dd75-45f8-aa66-0a750e536a1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 5, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 6, server: 134.195.196.231, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国(TG频道:@kxswa) 11, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 2, server: 36.158.244.20, port: 25286, type: ss, cipher: chacha20-ietf-poly1305, password: 7b561e94-42f3-4f92-979c-4cf97c328025, udp: true}
-  - {name: 中国(TG频道:@kxswa) 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 加拿大(TG频道:@kxswa) 7, server: 134.195.196.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 中国(TG频道:@kxswa) 4, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 更新于06/03, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: 120.233.186.250, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 2, server: 120.233.186.71, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 3, server: 120.233.186.250, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 4, server: 103.56.62.145, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 5, server: 120.233.186.71, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 6, server: 103.56.60.185, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 7, server: 120.233.186.71, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 8, server: 120.233.186.204, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 9, server: 103.56.60.235, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 10, server: 116.129.253.191, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 11, server: 120.233.186.250, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 12, server: 103.56.60.185, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 13, server: 103.56.60.235, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 14, server: 120.233.186.59, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 15, server: 103.56.60.235, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 16, server: 103.56.60.235, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 17, server: 116.129.253.134, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 18, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 中国(TG频道:@kxswa) 19, server: 116.129.253.134, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 20, server: 116.129.253.187, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 21, server: 116.129.253.177, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 22, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 23, server: 120.233.186.59, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 24, server: 120.233.186.204, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 25, server: 103.56.60.235, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 26, server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 27, server: 120.233.186.71, port: 3383, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 28, server: 103.56.62.145, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 29, server: 120.233.186.71, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 30, server: 120.233.186.204, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 31, server: 116.129.253.187, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 32, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 33, server: 116.129.253.134, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 34, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 35, server: 103.56.62.145, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa), server: 211.72.35.153, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 36, server: 120.233.186.250, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 37, server: yp-cm-002.omo-m0m.com, port: 5703, type: trojan, password: 9d6a601d-8593-39b5-8861-86ac78c0c5ad, sni: yp-cm-002.omo-m0m.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 38, server: 120.233.186.250, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 39, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 40, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 41, server: 120.233.186.204, port: 3383, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 42, server: 29d78fe.nf.gladns.com, port: 3389, type: trojan, password: 8c72bafbd4837610, sni: 29d78fe.nf.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 43, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 44, server: 120.233.186.59, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 45, server: 120.233.186.59, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 46, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 2, server: 211.72.35.153, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 3, server: 60.249.3.227, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 47, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 4, server: 60.249.3.125, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 5, server: 60.249.3.226, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 6, server: 211.72.35.153, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 48, server: 116.129.253.191, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa), server: mshk1.369boy.com, port: 10501, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: mshk1.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 49, server: 120.233.186.250, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 7, server: 60.249.3.227, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 8, server: 60.249.3.125, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 50, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 51, server: 103.56.62.145, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 9, server: 211.72.35.158, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 10, server: 60.249.3.227, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 52, server: 120.233.186.71, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 53, server: 120.233.186.71, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 54, server: 120.233.186.250, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 55, server: 120.233.186.59, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 11, server: 60.249.3.231, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 2, server: 20.187.79.61, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 56, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国(TG频道:@kxswa) 57, server: 116.129.253.245, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 58, server: 120.233.186.59, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 3, server: 20.187.79.61, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 59, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡(TG频道:@kxswa), server: xjp001.369boy.com, port: 11001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: xjp001.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 60, server: 120.233.186.59, port: 3384, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 12, server: 60.249.3.226, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 13, server: 211.72.35.158, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 61, server: dd004.zhuan666.top, port: 11604, type: ss, cipher: chacha20-ietf-poly1305, password: 8c313190-4d93-43f3-b557-fe0ffe4c260a, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 62, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港(TG频道:@kxswa) 4, server: 20.187.100.205, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 63, server: 120.233.186.71, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 64, server: 106.75.168.104, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 2, server: 129.226.95.180, port: 41696, type: vmess, uuid: ff2d2b86-21fb-4f56-baf6-d167687e49f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 3, server: 129.226.93.124, port: 23338, type: vmess, uuid: e39405df-f0c5-4702-9e41-695d702c9ce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 4, server: 129.226.213.227, port: 39141, type: vmess, uuid: e42fd9e6-4572-4dd2-e059-b98924850568, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 65, server: 103.56.60.185, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 5, server: 129.226.213.33, port: 27970, type: vmess, uuid: 7f38e7a1-31c9-409e-f7c8-75724d013f2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 66, server: 117.50.106.86, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 67, server: 113.31.155.165, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 68, server: 103.56.62.145, port: 3383, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 69, server: 117.50.106.86, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 70, server: 103.56.62.145, port: 3383, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 5, server: 20.187.100.205, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 2, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 日本(TG频道:@kxswa), server: qt27.godseven.xyz, port: 2087, type: trojan, password: 37650a79-2337-4087-a468-3e29ceb7e14e, sni: qt27.godseven.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 3, server: usa002.369boy.com, port: 12001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa002.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 4, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 6, server: 129.226.216.148, port: 57021, type: vmess, uuid: cacc4a90-6be9-456b-d965-004da0c9994a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 7, server: 129.226.217.64, port: 40953, type: vmess, uuid: 27dcd7d3-71be-4382-9cf5-e28a1fbdb268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 8, server: 129.226.217.200, port: 21273, type: vmess, uuid: 7c80e4b0-7ecc-4947-ce7e-e6c55b42ab4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 71, server: 103.56.62.145, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 9, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 10, server: 129.226.215.128, port: 34429, type: vmess, uuid: cff39ccb-150a-4a67-c859-6106b5681925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 11, server: 129.226.95.64, port: 26782, type: vmess, uuid: ed210fb9-1d74-4192-aa3c-223c92293817, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 12, server: 129.226.217.248, port: 58349, type: vmess, uuid: 3d6ea750-faaf-4291-9531-e1dbe2bda7b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 13, server: 129.226.213.196, port: 52414, type: vmess, uuid: 5bf9832a-e523-4522-ae26-ada7914d8967, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 6, server: 119.28.92.125, port: 7654, type: vmess, uuid: 9481e525-557b-485d-8b64-ec14270974d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 14, server: 211.72.35.158, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 14, server: 129.226.214.92, port: 46265, type: vmess, uuid: af810246-4a26-40d4-c12d-7c43609ed927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 5, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 72, server: 103.56.60.235, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 日本(TG频道:@kxswa) 2, server: 168.138.208.145, port: 56816, type: vmess, uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 6, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 73, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 15, server: 5.44.249.43, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 7, server: jp001.369boy.com, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: jp001.369boy.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 16, server: 129.226.93.209, port: 46823, type: vmess, uuid: cb829e8c-1acd-4c6b-9fbe-44432a457cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 17, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 15, server: 60.249.3.226, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 74, server: 120.233.186.71, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 75, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 18, server: 129.226.95.229, port: 43747, type: vmess, uuid: b1ab23a1-6504-4cf0-af25-9f3030b65925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 76, server: sha-cu-001.omo-m0m.com, port: 5601, type: trojan, password: 9d6a601d-8593-39b5-8861-86ac78c0c5ad, sni: sha-cu-001.omo-m0m.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 77, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 19, server: 5.44.249.43, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: (TG频道:@kxswa), server: 103.172.116.113, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 78, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国(TG频道:@kxswa) 79, server: 120.233.186.204, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 80, server: 120.233.186.250, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 81, server: 120.233.186.59, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 82, server: 120.233.186.250, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 8, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 83, server: 103.56.62.145, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 84, server: 103.56.62.145, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 85, server: 116.129.253.187, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 86, server: 120.233.186.250, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 9, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 87, server: 120.233.186.71, port: 3383, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 88, server: 116.129.253.134, port: 3386, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 89, server: 120.233.186.204, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 7, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: ist-tur.jinxnet.xyz}, udp: true}
+  - {name: 香港(TG频道:@kxswa) 8, server: 20.187.100.205, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 9, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: azhk.102498.eu.org}, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 20, server: 5.44.249.43, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 10, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 21, server: sghe.tjvpn.org, port: 443, type: trojan, password: 253152b0-e018-11ec-b935-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 90, server: 103.56.62.145, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 91, server: 116.129.253.134, port: 3384, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 92, server: 103.56.62.145, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: (TG频道:@kxswa) 2, server: 103.172.116.113, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 93, server: 116.129.253.245, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 94, server: 120.233.186.250, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 95, server: 103.56.60.235, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 96, server: 116.129.253.134, port: 3381, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 97, server: 120.233.186.59, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 98, server: 120.132.50.158, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 99, server: 103.56.62.145, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 100, server: 43.154.132.251, port: 26542, type: vmess, uuid: 683cb680-1db5-4462-e511-c375a89c17b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 101, server: 116.129.253.177, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 102, server: 106.75.168.104, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 103, server: 116.129.253.134, port: 3384, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 22, server: 129.226.213.203, port: 23350, type: vmess, uuid: 11d19cb8-566d-42e0-dfa2-ea51b611c250, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 23, server: 129.226.215.102, port: 54694, type: vmess, uuid: ae47d7da-3387-4323-cb0c-314cfc87c343, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 104, server: 106.75.168.104, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 105, server: 42.240.132.83, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 106, server: 113.31.155.165, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 107, server: 103.56.60.235, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 24, server: 129.226.213.220, port: 19822, type: vmess, uuid: ed13d744-2c6c-4bb3-c101-b99f1890cecb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 108, server: 120.132.50.158, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 109, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: 中国(TG频道:@kxswa) 110, server: 123.59.87.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 111, server: 117.50.106.86, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 112, server: 120.132.50.158, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 113, server: 103.56.62.145, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 25, server: 129.226.95.137, port: 11494, type: vmess, uuid: defae3ad-c56e-4ed0-f12d-4d281d2d07b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 114, server: 116.129.253.177, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 115, server: 106.75.233.91, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 116, server: 42.240.132.83, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 117, server: 106.75.233.91, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 26, server: 129.226.214.86, port: 37174, type: vmess, uuid: 80a79113-3320-4991-f17f-5628ed775bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 118, server: 113.31.109.30, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 119, server: 103.56.60.235, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 120, server: 120.233.186.204, port: 3382, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 121, server: 42.240.132.83, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 122, server: 116.129.253.134, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 123, server: 120.233.186.71, port: 3382, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 124, server: 106.75.233.91, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 125, server: 103.56.62.145, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 126, server: 123.59.87.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 127, server: 113.31.109.30, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 128, server: 113.31.109.30, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 129, server: 113.31.155.165, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 130, server: 116.129.253.245, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 131, server: 120.233.186.204, port: 3382, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 132, server: 120.233.186.59, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 133, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国(TG频道:@kxswa) 134, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国(TG频道:@kxswa) 135, server: 116.129.253.134, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 136, server: 103.56.62.145, port: 3381, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 台湾(TG频道:@kxswa) 16, server: 60.249.3.231, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
 proxy-groups:
-  - name: 🔰 TG频道:@kxswa|
+  - name: 🔰 TG频道:@kxswa
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: 🎥 NETFLIX
     type: select
     proxies:
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: ⛔️ 广告拦截
     type: select
     proxies:
       - 🛑 全球拦截
       - 🎯 全球直连
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
   - name: 🚫 运营劫持
     type: select
     proxies:
       - 🛑 全球拦截
       - 🎯 全球直连
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 台湾(TG频道:@kxswa)
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
       - 香港(TG频道:@kxswa)
-      - 🔰 TG频道:@kxswa|
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 台湾(TG频道:@kxswa) 15
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 16
+      - 🔰 TG频道:@kxswa
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
-      - 🔰 TG频道:@kxswa|
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 🔰 TG频道:@kxswa
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: 📲 电报信息
     type: select
     proxies:
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
       - 🎯 全球直连
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -355,44 +1714,211 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🔰 TG频道:@kxswa|
+      - 🔰 TG频道:@kxswa
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于06/02
-      - 关注TG频道获取更多高速节点
-      - 台湾(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 美国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa) 5
-      - 美国(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 7
-      - 美国(TG频道:@kxswa) 8
-      - 日本(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
+      - 更新于06/03
       - 中国(TG频道:@kxswa)
-      - 法国(TG频道:@kxswa)
-      - 俄罗斯联邦(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 9
-      - 加拿大(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 10
-      - 加拿大(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa)
-      - 加拿大(TG频道:@kxswa) 4
-      - 澳大利亚(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa) 2
-      - 加拿大(TG频道:@kxswa) 5
-      - 加拿大(TG频道:@kxswa) 6
-      - 美国(TG频道:@kxswa) 11
       - 中国(TG频道:@kxswa) 2
       - 中国(TG频道:@kxswa) 3
-      - 加拿大(TG频道:@kxswa) 7
       - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 11
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - 中国(TG频道:@kxswa) 17
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - 中国(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 22
+      - 中国(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 27
+      - 中国(TG频道:@kxswa) 28
+      - 中国(TG频道:@kxswa) 29
+      - 中国(TG频道:@kxswa) 30
+      - 中国(TG频道:@kxswa) 31
+      - 中国(TG频道:@kxswa) 32
+      - 中国(TG频道:@kxswa) 33
+      - 中国(TG频道:@kxswa) 34
+      - 中国(TG频道:@kxswa) 35
+      - 台湾(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 36
+      - 中国(TG频道:@kxswa) 37
+      - 中国(TG频道:@kxswa) 38
+      - 中国(TG频道:@kxswa) 39
+      - 中国(TG频道:@kxswa) 40
+      - 中国(TG频道:@kxswa) 41
+      - 中国(TG频道:@kxswa) 42
+      - 中国(TG频道:@kxswa) 43
+      - 中国(TG频道:@kxswa) 44
+      - 中国(TG频道:@kxswa) 45
+      - 中国(TG频道:@kxswa) 46
+      - 台湾(TG频道:@kxswa) 2
+      - 台湾(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 47
+      - 台湾(TG频道:@kxswa) 4
+      - 台湾(TG频道:@kxswa) 5
+      - 台湾(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 48
+      - 香港(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 49
+      - 台湾(TG频道:@kxswa) 7
+      - 台湾(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 50
+      - 中国(TG频道:@kxswa) 51
+      - 台湾(TG频道:@kxswa) 9
+      - 台湾(TG频道:@kxswa) 10
+      - 中国(TG频道:@kxswa) 52
+      - 中国(TG频道:@kxswa) 53
+      - 中国(TG频道:@kxswa) 54
+      - 中国(TG频道:@kxswa) 55
+      - 台湾(TG频道:@kxswa) 11
+      - 香港(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 56
+      - 中国(TG频道:@kxswa) 57
+      - 中国(TG频道:@kxswa) 58
+      - 香港(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 59
+      - 新加坡(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 60
+      - 台湾(TG频道:@kxswa) 12
+      - 台湾(TG频道:@kxswa) 13
+      - 中国(TG频道:@kxswa) 61
+      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 62
+      - 香港(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 63
+      - 中国(TG频道:@kxswa) 64
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 新加坡(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 65
+      - 新加坡(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 66
+      - 中国(TG频道:@kxswa) 67
+      - 中国(TG频道:@kxswa) 68
+      - 中国(TG频道:@kxswa) 69
+      - 中国(TG频道:@kxswa) 70
+      - 香港(TG频道:@kxswa) 5
+      - 美国(TG频道:@kxswa) 2
+      - 日本(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 新加坡(TG频道:@kxswa) 6
+      - 新加坡(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 71
+      - 新加坡(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa) 12
+      - 新加坡(TG频道:@kxswa) 13
+      - 香港(TG频道:@kxswa) 6
+      - 台湾(TG频道:@kxswa) 14
+      - 新加坡(TG频道:@kxswa) 14
+      - 美国(TG频道:@kxswa) 5
+      - 中国(TG频道:@kxswa) 72
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 6
+      - 中国(TG频道:@kxswa) 73
+      - 新加坡(TG频道:@kxswa) 15
+      - 美国(TG频道:@kxswa) 7
+      - 新加坡(TG频道:@kxswa) 16
+      - 新加坡(TG频道:@kxswa) 17
+      - 台湾(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 74
+      - 中国(TG频道:@kxswa) 75
+      - 新加坡(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 76
+      - 中国(TG频道:@kxswa) 77
+      - 新加坡(TG频道:@kxswa) 19
+      - (TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 78
+      - 中国(TG频道:@kxswa) 79
+      - 中国(TG频道:@kxswa) 80
+      - 中国(TG频道:@kxswa) 81
+      - 中国(TG频道:@kxswa) 82
+      - 美国(TG频道:@kxswa) 8
+      - 中国(TG频道:@kxswa) 83
+      - 中国(TG频道:@kxswa) 84
+      - 中国(TG频道:@kxswa) 85
+      - 中国(TG频道:@kxswa) 86
+      - 美国(TG频道:@kxswa) 9
+      - 中国(TG频道:@kxswa) 87
+      - 中国(TG频道:@kxswa) 88
+      - 中国(TG频道:@kxswa) 89
+      - 香港(TG频道:@kxswa) 7
+      - 香港(TG频道:@kxswa) 8
+      - 香港(TG频道:@kxswa) 9
+      - 新加坡(TG频道:@kxswa) 20
+      - 美国(TG频道:@kxswa) 10
+      - 新加坡(TG频道:@kxswa) 21
+      - 中国(TG频道:@kxswa) 90
+      - 中国(TG频道:@kxswa) 91
+      - 中国(TG频道:@kxswa) 92
+      - (TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 93
+      - 中国(TG频道:@kxswa) 94
+      - 中国(TG频道:@kxswa) 95
+      - 中国(TG频道:@kxswa) 96
+      - 中国(TG频道:@kxswa) 97
+      - 中国(TG频道:@kxswa) 98
+      - 中国(TG频道:@kxswa) 99
+      - 中国(TG频道:@kxswa) 100
+      - 中国(TG频道:@kxswa) 101
+      - 中国(TG频道:@kxswa) 102
+      - 中国(TG频道:@kxswa) 103
+      - 新加坡(TG频道:@kxswa) 22
+      - 新加坡(TG频道:@kxswa) 23
+      - 中国(TG频道:@kxswa) 104
+      - 中国(TG频道:@kxswa) 105
+      - 中国(TG频道:@kxswa) 106
+      - 中国(TG频道:@kxswa) 107
+      - 新加坡(TG频道:@kxswa) 24
+      - 中国(TG频道:@kxswa) 108
+      - 中国(TG频道:@kxswa) 109
+      - 中国(TG频道:@kxswa) 110
+      - 中国(TG频道:@kxswa) 111
+      - 中国(TG频道:@kxswa) 112
+      - 中国(TG频道:@kxswa) 113
+      - 新加坡(TG频道:@kxswa) 25
+      - 中国(TG频道:@kxswa) 114
+      - 中国(TG频道:@kxswa) 115
+      - 中国(TG频道:@kxswa) 116
+      - 中国(TG频道:@kxswa) 117
+      - 新加坡(TG频道:@kxswa) 26
+      - 中国(TG频道:@kxswa) 118
+      - 中国(TG频道:@kxswa) 119
+      - 中国(TG频道:@kxswa) 120
+      - 中国(TG频道:@kxswa) 121
+      - 中国(TG频道:@kxswa) 122
+      - 中国(TG频道:@kxswa) 123
+      - 中国(TG频道:@kxswa) 124
+      - 中国(TG频道:@kxswa) 125
+      - 中国(TG频道:@kxswa) 126
+      - 中国(TG频道:@kxswa) 127
+      - 中国(TG频道:@kxswa) 128
+      - 中国(TG频道:@kxswa) 129
+      - 中国(TG频道:@kxswa) 130
+      - 中国(TG频道:@kxswa) 131
+      - 中国(TG频道:@kxswa) 132
+      - 中国(TG频道:@kxswa) 133
+      - 中国(TG频道:@kxswa) 134
+      - 中国(TG频道:@kxswa) 135
+      - 中国(TG频道:@kxswa) 136
+      - 台湾(TG频道:@kxswa) 16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9692,551 +11218,551 @@ rules:
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - DOMAIN-SUFFIX,amazon.co.jp,🔰 TG频道:@kxswa|
- - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 TG频道:@kxswa|
- - DOMAIN,payments-jp.amazon.com,🔰 TG频道:@kxswa|
- - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 TG频道:@kxswa|
- - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 TG频道:@kxswa|
- - DOMAIN,a248.e.akamai.net,🔰 TG频道:@kxswa|
- - DOMAIN,a771.dscq.akamai.net,🔰 TG频道:@kxswa|
- - DOMAIN,testflight.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,aex.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bibox.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,binance.cc,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,binance.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bitcointalk.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bitfinex.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bitmex.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gate.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,huobi.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,okex.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,uniswap.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zb.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,discord.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,discordapp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,discordapp.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dropbox.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dropboxapi.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cdninstagram.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,facebook.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,facebook.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fb.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fb.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fbaddins.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fbcdn.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fbsbx.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fbworkmail.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,instagram.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,m.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,messenger.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,oculus.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,oculuscdn.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,rocksdb.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,whatsapp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,whatsapp.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,github.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,github.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,githubusercontent.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,appspot.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,blogger.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,getoutline.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gvt0.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gvt3.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ytimg.com,🔰 TG频道:@kxswa|
- - DOMAIN-KEYWORD,google,🔰 TG频道:@kxswa|
- - DOMAIN-KEYWORD,.blogspot.,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,line.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,line-apps.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,line-scdn.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,naver.jp,🔰 TG频道:@kxswa|
- - IP-CIDR,103.2.30.0/23,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,125.209.208.0/20,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,147.92.128.0/17,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,203.104.144.0/21,🔰 TG频道:@kxswa|,no-resolve
- - DOMAIN-SUFFIX,aka.ms,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,onedrive.live.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 TG频道:@kxswa|
- - DOMAIN,assets1.xboxlive.com,🔰 TG频道:@kxswa|
- - DOMAIN,assets2.xboxlive.com,🔰 TG频道:@kxswa|
- - DOMAIN,az416426.vo.msecnd.net,🔰 TG频道:@kxswa|
- - DOMAIN,az668014.vo.msecnd.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nyt.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytchina.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytcn.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytco.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytimes.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytimg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytlog.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nytstyle.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.at,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.ca,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.co.uk,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.de,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.fr,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinterest.se,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pixiv.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pixiv.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pximg.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,redd.it,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,reddit.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,redditmedia.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,telegra.ph,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,telegram.org,🔰 TG频道:@kxswa|
- - IP-CIDR,91.108.4.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,91.108.8.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,91.108.12.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,91.108.16.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,91.108.20.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,91.108.56.0/22,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,95.161.64.0/20,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR,149.154.160.0/20,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,🔰 TG频道:@kxswa|,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,🔰 TG频道:@kxswa|,no-resolve
- - DOMAIN-SUFFIX,pscp.tv,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,periscope.tv,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,t.co,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,twimg.co,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,twimg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,twitpic.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,twitter.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,vine.co,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikileaks.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikimapia.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikimedia.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikinews.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikipedia.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikiquote.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,4shared.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,9cache.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,9gag.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,abc.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,abc.net.au,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,abebooks.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ao3.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apigee.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apkcombo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apk-dl.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apkfind.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apkmirror.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apkmonk.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,apkpure.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,aptoide.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,archive.is,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,archive.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,archiveofourown.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,archiveofourown.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,arte.tv,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,artstation.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,arukas.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ask.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,avg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,avgle.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,badoo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bandcamp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bandwagonhost.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bangkokpost.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bbc.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,behance.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,biggo.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bit.ly,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bloglovin.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bloomberg.cn,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bloomberg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,blubrry.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,book.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,booklive.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,books.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,boslife.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,box.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,brave.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,businessinsider.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,buzzfeed.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bwh1.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,castbox.fm,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cbc.ca,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cdw.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,change.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,channelnewsasia.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ck101.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,clarionproject.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cloudcone.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,clubhouseapi.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,clyp.it,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cna.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,comparitech.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,conoha.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,crucial.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cts.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cw.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cyberctm.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cyclingnews.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dailymotion.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dailyview.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dandanzan.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,daum.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,daumcdn.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dcard.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,deadline.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,deepdiscount.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,depositphotos.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,deviantart.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,disconnect.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,disqus.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dlercloud.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dmhy.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dns2go.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dowjones.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,duckduckgo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,duyaoss.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dw.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dynu.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,earthcam.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ebookservice.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,economist.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,edgecastcdn.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,edx-cdn.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,elpais.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,enanyang.my,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,encyclopedia.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,esoir.be,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,etherscan.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,euronews.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,evozi.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,exblog.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,feeder.co,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,feedly.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,feedx.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,firech.at,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,flickr.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,flipboard.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,flitto.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,foreignpolicy.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,fortawesome.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,freetls.fastly.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,friday.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ft.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ftchinese.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ftimg.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,genius.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,getlantern.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,getsync.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,globalvoices.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,goo.ne.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,goodreads.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gov.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gravatar.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,greatfire.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gumroad.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,heroku.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hightail.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hk01.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hkbf.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hkbookcity.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hkej.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hket.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hootsuite.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hudson.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,huffpost.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,hyread.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ibtimes.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,i-cable.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,icij.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,icoco.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,imgur.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,independent.co.uk,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,initiummall.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,inoreader.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,insecam.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ipfs.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,issuu.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,istockphoto.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,japantimes.co.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,jiji.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,jinx.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,jkforum.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,joinclubhouse.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,joinmastodon.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,justmysocks.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,justpaste.it,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kadokawa.co.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kakao.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kakaocorp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kik.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kingkong.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,knowyourmeme.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kobo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kobobooks.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,kodingen.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,lemonde.fr,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,lepoint.fr,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,lihkg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,limbopro.xyz,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,listennotes.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,livestream.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,logimg.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,logmein.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mail.ru,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mailchimp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,marc.info,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,matters.news,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,maying.co,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,medium.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mega.nz,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mingpao.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mixi.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mixlr.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mobile01.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mubi.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,myspace.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,myspacecdn.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nanyang.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nationalinterest.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,naver.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nbcnews.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ndr.de,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,neowin.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,newstapa.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nexitally.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nhk.or.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nii.ac.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nikkei.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nitter.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nofile.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,notion.so,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,now.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nrk.no,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nuget.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,nyaa.si,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ok.ru,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,on.cc,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,overcast.fm,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,paltalk.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,parsevideo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pawoo.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pbxes.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pcdvd.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pchome.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pcloud.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,peing.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,picacomic.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pinimg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,player.fm,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,plurk.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,po18.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,potato.im,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,potatso.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,prism-break.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,proxifier.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pt.im,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pts.org.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pubu.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pubu.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,pureapk.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,quora.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,quoracdn.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,qz.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,radio.garden,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,rakuten.co.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,rarbgprx.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,reabble.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,readingtimes.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,readmoo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,redbubble.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,resilio.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,reuters.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,reutersmedia.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,rfi.fr,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,roadshow.hk,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,rsshub.app,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,scmp.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,scribd.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,seatguru.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,shadowsocks.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,shindanmaker.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,shopee.tw,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,signal.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,sina.com.hk,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,slideshare.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,softfamous.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,spiegel.de,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,startpage.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,steamcommunity.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,steemit.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,steemitwallet.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,straitstimes.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,streamable.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,streema.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,substack.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,t66y.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tapatalk.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,teco-hk.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,teco-mo.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,teddysun.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,textnow.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,theguardian.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,theinitium.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,themoviedb.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,thetvdb.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,time.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tineye.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tiny.cc,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tinyurl.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,torproject.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tumblr.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,turbobit.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tutanota.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tvboxnow.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,udn.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,unseen.is,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,upmedia.mg,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,uptodown.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,urbandictionary.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ustream.tv,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,uwants.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,v2ex.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,v2fly.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,v2ray.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,viber.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,videopress.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,vimeo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,voachinese.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,voanews.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,voxer.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,vzw.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,w3schools.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,washingtonpost.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wattpad.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,whoer.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wikiwand.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,winudf.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wire.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wn.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wordpress.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,worldcat.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wsj.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,wsj.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xhamster.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xnxx.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,xvideos.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yadi.sk,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yahoo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yandex.ru,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ycombinator.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yesasia.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yes-news.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yomiuri.co.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,you-get.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zaobao.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zello.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zeronet.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,z-lib.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zoom.us,🔰 TG频道:@kxswa|
- - DOMAIN,cc.tvbs.com.tw,🔰 TG频道:@kxswa|
- - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 TG频道:@kxswa|
- - DOMAIN,us.weibo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,edu,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gov,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mil,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,abc.xyz,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,advertisercommunity.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ampproject.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,android.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,androidify.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,autodraw.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,capitalg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,certificate-transparency.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,chrome.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,chromeexperiments.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,chromestatus.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,chromium.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,creativelab5.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,debug.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,deepmind.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dialogflow.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,firebaseio.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,getmdl.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ggpht.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gmail.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gmodules.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,godoc.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gstatic.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gv.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,gwtproject.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,itasoftware.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,madewithcode.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,material.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,page.link,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,polymer-project.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,recaptcha.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,shattered.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,synergyse.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,telephony.goog,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tensorflow.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tfhub.dev,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tiltbrush.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,waveprotocol.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,waymo.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,webmproject.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,webrtc.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,whatbrowser.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,widevine.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,x.company,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,youtu.be,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,yt.be,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ytimg.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,t.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,tdesktop.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,telegram.me,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,telesco.pe,🔰 TG频道:@kxswa|
- - DOMAIN-KEYWORD,.facebook.,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,facebookmail.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,noxinfluencer.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,smartmailcloud.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,weebly.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,twitter.jp,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,appsto.re,🔰 TG频道:@kxswa|
- - DOMAIN,books.itunes.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,api-glb-sea.smoot.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,beta.music.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,tv.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,apps.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,itunes.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,smoot.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,lookup-api.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,go.dev,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,golang.org,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,bing.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cccat.io,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,dubox.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,duboxcdn.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,ifixit.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,mangakakalot.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,shopeemobile.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,sushi.com,🔰 TG频道:@kxswa|
- - DOMAIN,appleid.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,developer.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,www.icloud.com,🔰 TG频道:@kxswa|
- - DOMAIN,ocsp.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,xp.apple.com,🔰 TG频道:@kxswa|
- - DOMAIN,cacerts.digicert.com,🔰 TG频道:@kxswa|
- - DOMAIN,crl3.digicert.com,🔰 TG频道:@kxswa|
- - DOMAIN,crl4.digicert.com,🔰 TG频道:@kxswa|
- - DOMAIN,ocsp.digicert.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,inkbunny.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,metapix.net,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 TG频道:@kxswa|
- - DOMAIN-SUFFIX,zaobao.com.sg,🔰 TG频道:@kxswa|
- - DOMAIN,international-gfe.download.nvidia.com,🔰 TG频道:@kxswa|
+ - DOMAIN-SUFFIX,amazon.co.jp,🔰 TG频道:@kxswa
+ - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 TG频道:@kxswa
+ - DOMAIN,payments-jp.amazon.com,🔰 TG频道:@kxswa
+ - DOMAIN,s3-ap-northeast-1.amazonaws.com,🔰 TG频道:@kxswa
+ - DOMAIN,s3-ap-southeast-2.amazonaws.com,🔰 TG频道:@kxswa
+ - DOMAIN,a248.e.akamai.net,🔰 TG频道:@kxswa
+ - DOMAIN,a771.dscq.akamai.net,🔰 TG频道:@kxswa
+ - DOMAIN,testflight.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,aex.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bibox.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,binance.cc,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,binance.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bitcointalk.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bitfinex.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bitmex.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gate.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,huobi.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,okex.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,uniswap.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zb.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,discord.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,discordapp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,discordapp.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dropbox.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dropboxapi.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dropboxusercontent.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cdninstagram.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,facebook.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,facebook.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fb.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fb.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fbaddins.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fbcdn.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fbsbx.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fbworkmail.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,instagram.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,m.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,messenger.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,oculus.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,oculuscdn.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,rocksdb.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,whatsapp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,whatsapp.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,github.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,github.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,githubusercontent.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,appspot.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,blogger.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,getoutline.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gvt0.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gvt3.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ytimg.com,🔰 TG频道:@kxswa
+ - DOMAIN-KEYWORD,google,🔰 TG频道:@kxswa
+ - DOMAIN-KEYWORD,.blogspot.,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,line.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,line-apps.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,line-scdn.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,naver.jp,🔰 TG频道:@kxswa
+ - IP-CIDR,103.2.30.0/23,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,125.209.208.0/20,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,147.92.128.0/17,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,203.104.144.0/21,🔰 TG频道:@kxswa,no-resolve
+ - DOMAIN-SUFFIX,aka.ms,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,onedrive.live.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,🔰 TG频道:@kxswa
+ - DOMAIN,assets1.xboxlive.com,🔰 TG频道:@kxswa
+ - DOMAIN,assets2.xboxlive.com,🔰 TG频道:@kxswa
+ - DOMAIN,az416426.vo.msecnd.net,🔰 TG频道:@kxswa
+ - DOMAIN,az668014.vo.msecnd.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nyt.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytchina.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytcn.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytco.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytimes.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytimg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytlog.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nytstyle.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.at,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.ca,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.co.uk,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.de,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.fr,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinterest.se,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pixiv.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pixiv.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pximg.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,redd.it,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,reddit.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,redditmedia.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,telegra.ph,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,telegram.org,🔰 TG频道:@kxswa
+ - IP-CIDR,91.108.4.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,91.108.8.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,91.108.12.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,91.108.16.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,91.108.20.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,91.108.56.0/22,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,95.161.64.0/20,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR,149.154.160.0/20,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,🔰 TG频道:@kxswa,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,🔰 TG频道:@kxswa,no-resolve
+ - DOMAIN-SUFFIX,pscp.tv,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,periscope.tv,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,t.co,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,twimg.co,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,twimg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,twitpic.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,twitter.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,vine.co,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikileaks.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikimapia.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikimedia.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikinews.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikipedia.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikiquote.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,4shared.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,9cache.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,9gag.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,abc.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,abc.net.au,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,abebooks.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ao3.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apigee.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apkcombo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apk-dl.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apkfind.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apkmirror.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apkmonk.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,apkpure.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,aptoide.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,archive.is,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,archive.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,archiveofourown.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,archiveofourown.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,arte.tv,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,artstation.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,arukas.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ask.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,avg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,avgle.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,badoo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bandcamp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bandwagonhost.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bangkokpost.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bbc.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,behance.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,biggo.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bit.ly,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bloglovin.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bloomberg.cn,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bloomberg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,blubrry.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,book.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,booklive.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,books.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,boslife.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,box.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,brave.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,businessinsider.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,buzzfeed.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bwh1.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,castbox.fm,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cbc.ca,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cdw.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,change.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,channelnewsasia.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ck101.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,clarionproject.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cloudcone.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,clubhouseapi.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,clyp.it,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cna.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,comparitech.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,conoha.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,crucial.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cts.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cw.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cyberctm.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cyclingnews.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dailymotion.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dailyview.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dandanzan.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,daum.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,daumcdn.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dcard.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,deadline.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,deepdiscount.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,depositphotos.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,deviantart.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,disconnect.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,disqus.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dlercloud.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dmhy.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dns2go.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dowjones.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,duckduckgo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,duyaoss.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dw.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dynu.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,earthcam.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ebookservice.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,economist.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,edgecastcdn.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,edx-cdn.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,elpais.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,enanyang.my,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,encyclopedia.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,esoir.be,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,etherscan.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,euronews.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,evozi.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,exblog.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,feeder.co,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,feedly.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,feedx.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,firech.at,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,flickr.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,flipboard.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,flitto.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,foreignpolicy.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,fortawesome.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,freetls.fastly.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,friday.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ft.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ftchinese.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ftimg.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,genius.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,getlantern.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,getsync.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,globalvoices.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,goo.ne.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,goodreads.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gov.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gravatar.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,greatfire.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gumroad.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,heroku.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hightail.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hk01.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hkbf.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hkbookcity.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hkej.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hket.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hootsuite.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hudson.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,huffpost.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,hyread.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ibtimes.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,i-cable.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,icij.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,icoco.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,imgur.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,independent.co.uk,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,initiummall.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,inoreader.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,insecam.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ipfs.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,issuu.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,istockphoto.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,japantimes.co.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,jiji.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,jinx.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,jkforum.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,joinclubhouse.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,joinmastodon.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,justmysocks.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,justpaste.it,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kadokawa.co.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kakao.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kakaocorp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kik.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kingkong.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,knowyourmeme.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kobo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kobobooks.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,kodingen.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,lemonde.fr,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,lepoint.fr,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,lihkg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,limbopro.xyz,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,listennotes.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,livestream.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,logimg.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,logmein.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mail.ru,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mailchimp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,marc.info,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,matters.news,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,maying.co,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,medium.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mega.nz,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mingpao.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mixi.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mixlr.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mobile01.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mubi.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,myspace.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,myspacecdn.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nanyang.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nationalinterest.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,naver.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nbcnews.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ndr.de,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,neowin.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,newstapa.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nexitally.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nhk.or.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nii.ac.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nikkei.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nitter.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nofile.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,notion.so,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,now.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nrk.no,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nuget.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,nyaa.si,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ok.ru,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,on.cc,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,orientaldaily.com.my,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,overcast.fm,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,paltalk.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,parsevideo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pawoo.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pbxes.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pcdvd.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pchome.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pcloud.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,peing.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,picacomic.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pinimg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,player.fm,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,plurk.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,po18.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,potato.im,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,potatso.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,prism-break.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,proxifier.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pt.im,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pts.org.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pubu.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pubu.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,pureapk.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,quora.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,quoracdn.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,qz.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,radio.garden,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,rakuten.co.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,rarbgprx.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,reabble.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,readingtimes.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,readmoo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,redbubble.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,resilio.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,reuters.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,reutersmedia.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,rfi.fr,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,roadshow.hk,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,rsshub.app,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,scmp.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,scribd.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,seatguru.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,shadowsocks.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,shindanmaker.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,shopee.tw,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,signal.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,sina.com.hk,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,slideshare.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,softfamous.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,spiegel.de,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,startpage.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,steamcommunity.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,steemit.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,steemitwallet.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,straitstimes.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,streamable.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,streema.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,substack.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,t66y.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tapatalk.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,teco-hk.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,teco-mo.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,teddysun.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,textnow.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,theguardian.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,theinitium.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,themoviedb.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,thetvdb.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,time.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tineye.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tiny.cc,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tinyurl.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,torproject.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tumblr.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,turbobit.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tutanota.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tvboxnow.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,udn.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,unseen.is,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,upmedia.mg,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,uptodown.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,urbandictionary.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ustream.tv,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,uwants.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,v2ex.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,v2fly.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,v2ray.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,viber.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,videopress.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,vimeo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,voachinese.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,voanews.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,voxer.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,vzw.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,w3schools.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,washingtonpost.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wattpad.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,whoer.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wikiwand.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,winudf.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wire.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wn.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wordpress.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,worldcat.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wsj.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,wsj.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xhamster.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xn--90wwvt03e.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xnxx.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,xvideos.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yadi.sk,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yahoo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yandex.ru,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ycombinator.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yesasia.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yes-news.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yomiuri.co.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,you-get.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zaobao.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zello.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zeronet.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,z-lib.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zoom.us,🔰 TG频道:@kxswa
+ - DOMAIN,cc.tvbs.com.tw,🔰 TG频道:@kxswa
+ - DOMAIN,ocsp.int-x3.letsencrypt.org,🔰 TG频道:@kxswa
+ - DOMAIN,us.weibo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,edu,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gov,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mil,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,abc.xyz,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,advertisercommunity.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ampproject.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,android.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,androidify.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,autodraw.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,capitalg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,certificate-transparency.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,chrome.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,chromeexperiments.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,chromestatus.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,chromium.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,creativelab5.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,debug.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,deepmind.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dialogflow.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,firebaseio.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,getmdl.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ggpht.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gmail.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gmodules.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,godoc.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gstatic.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gv.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,gwtproject.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,itasoftware.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,madewithcode.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,material.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,page.link,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,polymer-project.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,recaptcha.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,shattered.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,synergyse.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,telephony.goog,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tensorflow.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tfhub.dev,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tiltbrush.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,waveprotocol.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,waymo.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,webmproject.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,webrtc.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,whatbrowser.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,widevine.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,x.company,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,youtu.be,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,yt.be,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ytimg.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,t.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,tdesktop.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,telegram.me,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,telesco.pe,🔰 TG频道:@kxswa
+ - DOMAIN-KEYWORD,.facebook.,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,facebookmail.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,noxinfluencer.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,smartmailcloud.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,weebly.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,twitter.jp,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,appsto.re,🔰 TG频道:@kxswa
+ - DOMAIN,books.itunes.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,api-glb-sea.smoot.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,beta.music.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,tv.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,apps.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,itunes.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,smoot.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,lookup-api.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,go.dev,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,golang.org,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,bing.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cccat.io,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,dubox.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,duboxcdn.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,ifixit.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,mangakakalot.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,shopeemobile.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,sushi.com,🔰 TG频道:@kxswa
+ - DOMAIN,appleid.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,developer.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,www.icloud.com,🔰 TG频道:@kxswa
+ - DOMAIN,ocsp.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,xp.apple.com,🔰 TG频道:@kxswa
+ - DOMAIN,cacerts.digicert.com,🔰 TG频道:@kxswa
+ - DOMAIN,crl3.digicert.com,🔰 TG频道:@kxswa
+ - DOMAIN,crl4.digicert.com,🔰 TG频道:@kxswa
+ - DOMAIN,ocsp.digicert.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,inkbunny.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,metapix.net,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 TG频道:@kxswa
+ - DOMAIN-SUFFIX,zaobao.com.sg,🔰 TG频道:@kxswa
+ - DOMAIN,international-gfe.download.nvidia.com,🔰 TG频道:@kxswa
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
