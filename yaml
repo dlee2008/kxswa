@@ -5,21 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于06/04, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa), server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 2, server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 3, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 4, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 韩国(TG频道:@kxswa), server: sr.arthas.cf, port: 444, type: trojan, password: YFWu4CTvk9, sni: sr.arthas.cf, skip-cert-verify: true, udp: true}
-  - {name: 香港(TG频道:@kxswa), server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 7d7e6cf9-eac6-3d67-bc8e-a270034ac212, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloworld, ws-headers: {Host: ist-tur.jinxnet.xyz}, udp: true}
-  - {name: 新加坡(TG频道:@kxswa), server: sghe.tjvpn.org, port: 443, type: trojan, password: 253152b0-e018-11ec-b935-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
-  - {name: 韩国(TG频道:@kxswa) 2, server: sr.arthas.cf, port: 10445, type: vmess, uuid: 09210ce3-0ea0-4748-822b-b9bba085880d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 法国(TG频道:@kxswa), server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
-  - {name: 美国(TG频道:@kxswa) 2, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa) 3, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港(TG频道:@kxswa) 2, server: 43.225.100.197, port: 48505, type: ss, cipher: chacha20-ietf-poly1305, password: 3OQJHJM8xSt4T1d7, udp: true}
-  - {name: 美国(TG频道:@kxswa) 4, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 更新于06/04, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 2, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 3, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 4, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 5, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 TG频道:@kxswa
     type: select
@@ -29,18 +21,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -49,18 +33,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -70,18 +46,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -103,24 +71,14 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
       - 🔰 TG频道:@kxswa
   - name: Ⓜ️ 微软服务
     type: select
@@ -130,18 +88,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -150,18 +100,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -171,18 +113,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -201,18 +135,10 @@ proxy-groups:
       - 更新于06/04
       - 中国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
       - 中国(TG频道:@kxswa) 3
       - 中国(TG频道:@kxswa) 4
-      - 美国(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa)
-      - 新加坡(TG频道:@kxswa)
-      - 韩国(TG频道:@kxswa) 2
-      - 法国(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 3
-      - 香港(TG频道:@kxswa) 2
-      - 美国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
