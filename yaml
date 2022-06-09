@@ -5,187 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 更新于06/09, server: 120.241.236.152, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa), server: gzyd2.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 2, server: 120.241.236.152, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 3, server: gzyd1.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 4, server: gzyd1.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇭🇰 香港(TG频道:@kxswa), server: www.anlocl.gq, port: 10330, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.anlocl.gq}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 5, server: gzyd1.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 6, server: 120.241.236.152, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 7, server: gzyd1.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 8, server: gzyd2.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 9, server: gkdcu.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 10, server: gzyd2.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 11, server: gkdcu.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 12, server: gkdcm.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 13, server: gkdcm.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 14, server: gzyd2.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇫🇷 法国(TG频道:@kxswa), server: 141.11.170.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 15, server: hnyd.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 16, server: zj.haojiahuo.ml, port: 30042, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 17, server: 120.241.236.152, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 18, server: hnyd.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 19, server: gzyd1.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇯🇵 日本(TG频道:@kxswa), server: 175.41.237.24, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇯🇵 日本(TG频道:@kxswa) 2, server: 54.199.133.35, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇯🇵 日本(TG频道:@kxswa) 3, server: 35.78.118.63, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 20, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 21, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 22, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 23, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 24, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 25, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 26, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 27, server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 28, server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 29, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 30, server: gzbgp.gkdnode.top, port: 21817, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 31, server: gzyd1.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 32, server: 120.241.236.150, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 33, server: 116.129.254.47, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 34, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 35, server: gzyd2.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 36, server: zj.haojiahuo.ml, port: 30043, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 37, server: gkdcm.gkdnode.top, port: 21801, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 38, server: gy.feethree.top, port: 42529, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.feethree.top}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 39, server: hnyd.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 40, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 41, server: hnyd.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 42, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 43, server: gzyd1.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 44, server: gkdcm.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 45, server: hnyd.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa), server: 20.247.112.174, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 2, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 46, server: gkdcm.gkdnode.top, port: 21811, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 47, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 48, server: gkdcm.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 49, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 50, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 3, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 51, server: gkdcu.gkdnode.top, port: 21807, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇭🇰 香港(TG频道:@kxswa) 2, server: 20.205.63.134, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 4, server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 52, server: hnyd.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 53, server: 116.129.254.47, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 54, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 55, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 56, server: gkdcu.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 57, server: hnyd.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 58, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa), server: 103.173.255.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 5, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 59, server: fadai.gongbaojiding.tk, port: 16065, type: vmess, uuid: 3674478f-411a-4c70-8f75-649c6396848d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 60, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: (TG频道:@kxswa) 2, server: 103.173.255.228, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa) 3, server: 103.173.255.234, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 61, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 62, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 6, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 63, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 64, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 65, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 7, server: 155.248.162.12, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa) 4, server: 103.173.255.127, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 66, server: gzyd2.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 67, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 68, server: 120.241.236.152, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 69, server: gzyd1.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 70, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 71, server: gzyd2.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 72, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 73, server: gkdcm.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 5.44.249.43, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 74, server: gzyd2.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 2, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 3, server: 5.44.249.43, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 4, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
-  - {name: (TG频道:@kxswa) 5, server: 103.173.155.72, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
+  - {name: 🇸🇬 更新于06/09, server: hn.dxmax2.com, port: 12581, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa), server: hn.dxmax2.com, port: 41205, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 2, server: hn.dxmax2.com, port: 40010, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 3, server: hn.dxmax2.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇺🇸 美国(TG频道:@kxswa), server: gy.anoob.cc, port: 53419, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.anoob.cc}}}
+  - {name: 🇰🇷 韩国(TG频道:@kxswa), server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 4, server: hn.dxmax2.com, port: 17217, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 5, server: hn.dxmax2.com, port: 17208, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 6, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 7, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 8, server: hn.dxmax2.com, port: 17200, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 9, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 10, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 11, server: hn.dxmax2.com, port: 17211, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 12, server: 120.241.236.150, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 13, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 14, server: hn.dxmax2.com, port: 17206, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 15, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 16, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 17, server: zj.haojiahuo.ml, port: 30043, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 18, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 19, server: hn.dxmax2.com, port: 17204, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 20, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 21, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 22, server: hn.dxmax2.com, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 23, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 24, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 25, server: hn.dxmax2.com, port: 17212, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 5.44.249.43, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 2, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 26, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 3, server: 5.44.249.43, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 2, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 4, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true}
   - {name: 🇸🇬 新加坡(TG频道:@kxswa) 5, server: 5.44.249.43, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 6, server: 5.44.249.43, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 75, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 7, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 76, server: hnyd.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 77, server: gkdcu.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 78, server: hnyd.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 79, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 80, server: gkdcm.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 81, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 82, server: gkdcu.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 83, server: zj.haojiahuo.ml, port: 60136, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 84, server: 120.241.236.152, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 85, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 86, server: 120.241.236.150, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 87, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 88, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 8, server: 192.9.183.183, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 89, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 90, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 91, server: hnyd.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 92, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇬🇧 英国(TG频道:@kxswa), server: 144.24.90.94, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 93, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 9, server: 23.225.77.226, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 94, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 95, server: zj.haojiahuo.ml, port: 30046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 96, server: gzbgp.gkdnode.top, port: 21814, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 97, server: 120.241.236.150, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 98, server: gzyd1.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 99, server: gkdcm.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 100, server: zj.haojiahuo.ml, port: 30077, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 101, server: Intranet.dedicated.line.monaiyun.top, port: 53108, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 102, server: gkdcm.gkdnode.top, port: 21814, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 103, server: zj.haojiahuo.ml, port: 30029, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 104, server: gzbgp.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇩🇪 德国(TG频道:@kxswa), server: 172.104.244.36, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 10, server: 23.225.77.222, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 105, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇩🇪 德国(TG频道:@kxswa) 2, server: 172.104.251.52, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 106, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 107, server: Intranet.dedicated.line.monaiyun.top, port: 53108, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 108, server: gzyd1.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇬🇧 英国(TG频道:@kxswa) 2, server: 144.24.69.60, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 11, server: 23.225.77.192, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 109, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 110, server: gzbgp.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 111, server: gzyd2.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 112, server: gzyd2.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 113, server: gzyd1.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇬🇧 英国(TG频道:@kxswa) 3, server: 144.24.77.154, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 114, server: gkdcm.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 115, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 116, server: gzbgp.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 12, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true}
-  - {name: 🇬🇧 英国(TG频道:@kxswa) 4, server: 144.24.87.99, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 117, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 118, server: gzyd1.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 119, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 120, server: gzyd2.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 13, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 121, server: hnyd.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇬🇧 英国(TG频道:@kxswa) 5, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 2fb6f675-63a6-43f9-bc7b-e563164a0e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: chunchuan-02.aikala.shop}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 122, server: 120.241.236.152, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 123, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 124, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 125, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 126, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 127, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 128, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 129, server: lt.feethree.top, port: 38358, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 130, server: gkdcu.gkdnode.top, port: 21813, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 131, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 132, server: lt.feethree.top, port: 25105, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 133, server: Intranet.dedicated.line.monaiyun.top, port: 53107, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 134, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 135, server: 116.129.254.78, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 116.129.254.78}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 136, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 137, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 138, server: tw02.beibei456.xyz, port: 33352, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 139, server: 223.166.129.29, port: 63087, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇨🇳 中国(TG频道:@kxswa) 140, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(TG频道:@kxswa) 14, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利(TG频道:@kxswa), server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 27, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 6, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 28, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 29, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 30, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 31, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 3, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 7, server: 5.44.249.43, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 32, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 33, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 34, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 35, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 36, server: zj.haojiahuo.ml, port: 30043, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: "%257B%2522host%2522:%2522xuexi.cn%2522%257D"}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 37, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 38, server: 120.241.236.150, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: (TG频道:@kxswa), server: 103.172.116.113, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 39, server: 120.241.236.152, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 4, server: sg.yaoyaocat.com, port: 443, type: vmess, uuid: f465ac86-0ce1-4fda-b0a4-97ca3f684ee1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 40, server: 120.241.236.150, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 41, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 42, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 43, server: Intranet.dedicated.line.monaiyun.top, port: 53108, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 44, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 45, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 46, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: "%257B%2522host%2522:%2522xuexi.cn%2522%257D"}}}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 5, server: www.anlocl.cf, port: 10330, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.anlocl.cf}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 47, server: zj.haojiahuo.ml, port: 60136, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 48, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 49, server: zj.haojiahuo.ml, port: 30042, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 50, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 51, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 52, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 53, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 54, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 55, server: 116.129.254.212, port: 48608, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: MTQ2NmYxMDYyLm1pY3Jvc29mdC5jb20}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 56, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 57, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: "%257B%2522host%2522:%2522xuexi.cn%2522%257D"}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 58, server: hn.dxmax2.com, port: 17218, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 59, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(TG频道:@kxswa) 6, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 60, server: hn.dxmax2.com, port: 17216, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 61, server: lt.feethree.top, port: 25105, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 62, server: 120.241.236.150, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 63, server: lt.feethree.top, port: 38358, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}}
+  - {name: (TG频道:@kxswa) 2, server: 103.172.116.113, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 64, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 65, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.ml}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 66, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 67, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 68, server: 120.241.236.152, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
+  - {name: 🇰🇷 韩国(TG频道:@kxswa) 2, server: jgwcc.356930.xyz, port: 10021, type: vmess, uuid: 0d19129c-a925-4f21-8252-849838959a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jgwcc.356930.xyz}}}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 69, server: Intranet.dedicated.line.monaiyun.top, port: 53107, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 70, server: Intranet.dedicated.line.monaiyun.top, port: 53107, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 中国(TG频道:@kxswa) 71, server: 120.241.236.152, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2}
 proxy-groups:
   - name: 🔰 TG频道:@kxswa
     type: select
@@ -196,8 +104,9 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇰🇷 韩国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 7
@@ -208,27 +117,32 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 12
       - 🇨🇳 中国(TG频道:@kxswa) 13
       - 🇨🇳 中国(TG频道:@kxswa) 14
-      - 🇫🇷 法国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 15
       - 🇨🇳 中国(TG频道:@kxswa) 16
       - 🇨🇳 中国(TG频道:@kxswa) 17
       - 🇨🇳 中国(TG频道:@kxswa) 18
       - 🇨🇳 中国(TG频道:@kxswa) 19
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - 🇯🇵 日本(TG频道:@kxswa) 2
-      - 🇯🇵 日本(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 20
       - 🇨🇳 中国(TG频道:@kxswa) 21
       - 🇨🇳 中国(TG频道:@kxswa) 22
       - 🇨🇳 中国(TG频道:@kxswa) 23
       - 🇨🇳 中国(TG频道:@kxswa) 24
       - 🇨🇳 中国(TG频道:@kxswa) 25
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 26
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 4
+      - 🇸🇬 新加坡(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 27
+      - 🇸🇬 新加坡(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 28
       - 🇨🇳 中国(TG频道:@kxswa) 29
       - 🇨🇳 中国(TG频道:@kxswa) 30
       - 🇨🇳 中国(TG频道:@kxswa) 31
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇸🇬 新加坡(TG频道:@kxswa) 7
       - 🇨🇳 中国(TG频道:@kxswa) 32
       - 🇨🇳 中国(TG频道:@kxswa) 33
       - 🇨🇳 中国(TG频道:@kxswa) 34
@@ -236,24 +150,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 36
       - 🇨🇳 中国(TG频道:@kxswa) 37
       - 🇨🇳 中国(TG频道:@kxswa) 38
+      - (TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 39
+      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 40
       - 🇨🇳 中国(TG频道:@kxswa) 41
       - 🇨🇳 中国(TG频道:@kxswa) 42
       - 🇨🇳 中国(TG频道:@kxswa) 43
       - 🇨🇳 中国(TG频道:@kxswa) 44
       - 🇨🇳 中国(TG频道:@kxswa) 45
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 46
+      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 47
       - 🇨🇳 中国(TG频道:@kxswa) 48
       - 🇨🇳 中国(TG频道:@kxswa) 49
       - 🇨🇳 中国(TG频道:@kxswa) 50
-      - 🇺🇸 美国(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 51
-      - 🇭🇰 香港(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 52
       - 🇨🇳 中国(TG频道:@kxswa) 53
       - 🇨🇳 中国(TG频道:@kxswa) 54
@@ -261,118 +173,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 56
       - 🇨🇳 中国(TG频道:@kxswa) 57
       - 🇨🇳 中国(TG频道:@kxswa) 58
-      - (TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 59
+      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 60
-      - (TG频道:@kxswa) 2
-      - (TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 61
       - 🇨🇳 中国(TG频道:@kxswa) 62
-      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 63
+      - (TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 64
       - 🇨🇳 中国(TG频道:@kxswa) 65
-      - 🇺🇸 美国(TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 66
       - 🇨🇳 中国(TG频道:@kxswa) 67
       - 🇨🇳 中国(TG频道:@kxswa) 68
+      - 🇰🇷 韩国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 69
       - 🇨🇳 中国(TG频道:@kxswa) 70
       - 🇨🇳 中国(TG频道:@kxswa) 71
-      - 🇨🇳 中国(TG频道:@kxswa) 72
-      - 🇨🇳 中国(TG频道:@kxswa) 73
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 74
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
-      - 🇸🇬 新加坡(TG频道:@kxswa) 3
-      - 🇸🇬 新加坡(TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 6
-      - 🇨🇳 中国(TG频道:@kxswa) 75
-      - 🇸🇬 新加坡(TG频道:@kxswa) 7
-      - 🇨🇳 中国(TG频道:@kxswa) 76
-      - 🇨🇳 中国(TG频道:@kxswa) 77
-      - 🇨🇳 中国(TG频道:@kxswa) 78
-      - 🇨🇳 中国(TG频道:@kxswa) 79
-      - 🇨🇳 中国(TG频道:@kxswa) 80
-      - 🇨🇳 中国(TG频道:@kxswa) 81
-      - 🇨🇳 中国(TG频道:@kxswa) 82
-      - 🇨🇳 中国(TG频道:@kxswa) 83
-      - 🇨🇳 中国(TG频道:@kxswa) 84
-      - 🇨🇳 中国(TG频道:@kxswa) 85
-      - 🇨🇳 中国(TG频道:@kxswa) 86
-      - 🇨🇳 中国(TG频道:@kxswa) 87
-      - 🇨🇳 中国(TG频道:@kxswa) 88
-      - 🇺🇸 美国(TG频道:@kxswa) 8
-      - 🇨🇳 中国(TG频道:@kxswa) 89
-      - 🇨🇳 中国(TG频道:@kxswa) 90
-      - 🇨🇳 中国(TG频道:@kxswa) 91
-      - 🇨🇳 中国(TG频道:@kxswa) 92
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 93
-      - 🇺🇸 美国(TG频道:@kxswa) 9
-      - 🇨🇳 中国(TG频道:@kxswa) 94
-      - 🇨🇳 中国(TG频道:@kxswa) 95
-      - 🇨🇳 中国(TG频道:@kxswa) 96
-      - 🇨🇳 中国(TG频道:@kxswa) 97
-      - 🇨🇳 中国(TG频道:@kxswa) 98
-      - 🇨🇳 中国(TG频道:@kxswa) 99
-      - 🇨🇳 中国(TG频道:@kxswa) 100
-      - 🇨🇳 中国(TG频道:@kxswa) 101
-      - 🇨🇳 中国(TG频道:@kxswa) 102
-      - 🇨🇳 中国(TG频道:@kxswa) 103
-      - 🇨🇳 中国(TG频道:@kxswa) 104
-      - 🇩🇪 德国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 10
-      - 🇨🇳 中国(TG频道:@kxswa) 105
-      - 🇩🇪 德国(TG频道:@kxswa) 2
-      - 🇨🇳 中国(TG频道:@kxswa) 106
-      - 🇨🇳 中国(TG频道:@kxswa) 107
-      - 🇨🇳 中国(TG频道:@kxswa) 108
-      - 🇬🇧 英国(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 11
-      - 🇨🇳 中国(TG频道:@kxswa) 109
-      - 🇨🇳 中国(TG频道:@kxswa) 110
-      - 🇨🇳 中国(TG频道:@kxswa) 111
-      - 🇨🇳 中国(TG频道:@kxswa) 112
-      - 🇨🇳 中国(TG频道:@kxswa) 113
-      - 🇬🇧 英国(TG频道:@kxswa) 3
-      - 🇨🇳 中国(TG频道:@kxswa) 114
-      - 🇨🇳 中国(TG频道:@kxswa) 115
-      - 🇨🇳 中国(TG频道:@kxswa) 116
-      - 🇺🇸 美国(TG频道:@kxswa) 12
-      - 🇬🇧 英国(TG频道:@kxswa) 4
-      - 🇨🇳 中国(TG频道:@kxswa) 117
-      - 🇨🇳 中国(TG频道:@kxswa) 118
-      - 🇨🇳 中国(TG频道:@kxswa) 119
-      - 🇨🇳 中国(TG频道:@kxswa) 120
-      - 🇺🇸 美国(TG频道:@kxswa) 13
-      - 🇨🇳 中国(TG频道:@kxswa) 121
-      - 🇬🇧 英国(TG频道:@kxswa) 5
-      - 🇨🇳 中国(TG频道:@kxswa) 122
-      - 🇨🇳 中国(TG频道:@kxswa) 123
-      - 🇨🇳 中国(TG频道:@kxswa) 124
-      - 🇨🇳 中国(TG频道:@kxswa) 125
-      - 🇨🇳 中国(TG频道:@kxswa) 126
-      - 🇨🇳 中国(TG频道:@kxswa) 127
-      - 🇨🇳 中国(TG频道:@kxswa) 128
-      - 🇨🇳 中国(TG频道:@kxswa) 129
-      - 🇨🇳 中国(TG频道:@kxswa) 130
-      - 🇨🇳 中国(TG频道:@kxswa) 131
-      - 🇨🇳 中国(TG频道:@kxswa) 132
-      - 🇨🇳 中国(TG频道:@kxswa) 133
-      - 🇨🇳 中国(TG频道:@kxswa) 134
-      - 🇨🇳 中国(TG频道:@kxswa) 135
-      - 🇨🇳 中国(TG频道:@kxswa) 136
-      - 🇨🇳 中国(TG频道:@kxswa) 137
-      - 🇨🇳 中国(TG频道:@kxswa) 138
-      - 🇨🇳 中国(TG频道:@kxswa) 139
-      - 🇨🇳 中国(TG频道:@kxswa) 140
-      - 🇺🇸 美国(TG频道:@kxswa) 14
-      - 🇮🇹 意大利(TG频道:@kxswa)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -382,8 +198,9 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇰🇷 韩国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 7
@@ -394,27 +211,32 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 12
       - 🇨🇳 中国(TG频道:@kxswa) 13
       - 🇨🇳 中国(TG频道:@kxswa) 14
-      - 🇫🇷 法国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 15
       - 🇨🇳 中国(TG频道:@kxswa) 16
       - 🇨🇳 中国(TG频道:@kxswa) 17
       - 🇨🇳 中国(TG频道:@kxswa) 18
       - 🇨🇳 中国(TG频道:@kxswa) 19
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - 🇯🇵 日本(TG频道:@kxswa) 2
-      - 🇯🇵 日本(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 20
       - 🇨🇳 中国(TG频道:@kxswa) 21
       - 🇨🇳 中国(TG频道:@kxswa) 22
       - 🇨🇳 中国(TG频道:@kxswa) 23
       - 🇨🇳 中国(TG频道:@kxswa) 24
       - 🇨🇳 中国(TG频道:@kxswa) 25
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 26
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 4
+      - 🇸🇬 新加坡(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 27
+      - 🇸🇬 新加坡(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 28
       - 🇨🇳 中国(TG频道:@kxswa) 29
       - 🇨🇳 中国(TG频道:@kxswa) 30
       - 🇨🇳 中国(TG频道:@kxswa) 31
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇸🇬 新加坡(TG频道:@kxswa) 7
       - 🇨🇳 中国(TG频道:@kxswa) 32
       - 🇨🇳 中国(TG频道:@kxswa) 33
       - 🇨🇳 中国(TG频道:@kxswa) 34
@@ -422,24 +244,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 36
       - 🇨🇳 中国(TG频道:@kxswa) 37
       - 🇨🇳 中国(TG频道:@kxswa) 38
+      - (TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 39
+      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 40
       - 🇨🇳 中国(TG频道:@kxswa) 41
       - 🇨🇳 中国(TG频道:@kxswa) 42
       - 🇨🇳 中国(TG频道:@kxswa) 43
       - 🇨🇳 中国(TG频道:@kxswa) 44
       - 🇨🇳 中国(TG频道:@kxswa) 45
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 46
+      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 47
       - 🇨🇳 中国(TG频道:@kxswa) 48
       - 🇨🇳 中国(TG频道:@kxswa) 49
       - 🇨🇳 中国(TG频道:@kxswa) 50
-      - 🇺🇸 美国(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 51
-      - 🇭🇰 香港(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 52
       - 🇨🇳 中国(TG频道:@kxswa) 53
       - 🇨🇳 中国(TG频道:@kxswa) 54
@@ -447,118 +267,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 56
       - 🇨🇳 中国(TG频道:@kxswa) 57
       - 🇨🇳 中国(TG频道:@kxswa) 58
-      - (TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 59
+      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 60
-      - (TG频道:@kxswa) 2
-      - (TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 61
       - 🇨🇳 中国(TG频道:@kxswa) 62
-      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 63
+      - (TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 64
       - 🇨🇳 中国(TG频道:@kxswa) 65
-      - 🇺🇸 美国(TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 66
       - 🇨🇳 中国(TG频道:@kxswa) 67
       - 🇨🇳 中国(TG频道:@kxswa) 68
+      - 🇰🇷 韩国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 69
       - 🇨🇳 中国(TG频道:@kxswa) 70
       - 🇨🇳 中国(TG频道:@kxswa) 71
-      - 🇨🇳 中国(TG频道:@kxswa) 72
-      - 🇨🇳 中国(TG频道:@kxswa) 73
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 74
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
-      - 🇸🇬 新加坡(TG频道:@kxswa) 3
-      - 🇸🇬 新加坡(TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 6
-      - 🇨🇳 中国(TG频道:@kxswa) 75
-      - 🇸🇬 新加坡(TG频道:@kxswa) 7
-      - 🇨🇳 中国(TG频道:@kxswa) 76
-      - 🇨🇳 中国(TG频道:@kxswa) 77
-      - 🇨🇳 中国(TG频道:@kxswa) 78
-      - 🇨🇳 中国(TG频道:@kxswa) 79
-      - 🇨🇳 中国(TG频道:@kxswa) 80
-      - 🇨🇳 中国(TG频道:@kxswa) 81
-      - 🇨🇳 中国(TG频道:@kxswa) 82
-      - 🇨🇳 中国(TG频道:@kxswa) 83
-      - 🇨🇳 中国(TG频道:@kxswa) 84
-      - 🇨🇳 中国(TG频道:@kxswa) 85
-      - 🇨🇳 中国(TG频道:@kxswa) 86
-      - 🇨🇳 中国(TG频道:@kxswa) 87
-      - 🇨🇳 中国(TG频道:@kxswa) 88
-      - 🇺🇸 美国(TG频道:@kxswa) 8
-      - 🇨🇳 中国(TG频道:@kxswa) 89
-      - 🇨🇳 中国(TG频道:@kxswa) 90
-      - 🇨🇳 中国(TG频道:@kxswa) 91
-      - 🇨🇳 中国(TG频道:@kxswa) 92
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 93
-      - 🇺🇸 美国(TG频道:@kxswa) 9
-      - 🇨🇳 中国(TG频道:@kxswa) 94
-      - 🇨🇳 中国(TG频道:@kxswa) 95
-      - 🇨🇳 中国(TG频道:@kxswa) 96
-      - 🇨🇳 中国(TG频道:@kxswa) 97
-      - 🇨🇳 中国(TG频道:@kxswa) 98
-      - 🇨🇳 中国(TG频道:@kxswa) 99
-      - 🇨🇳 中国(TG频道:@kxswa) 100
-      - 🇨🇳 中国(TG频道:@kxswa) 101
-      - 🇨🇳 中国(TG频道:@kxswa) 102
-      - 🇨🇳 中国(TG频道:@kxswa) 103
-      - 🇨🇳 中国(TG频道:@kxswa) 104
-      - 🇩🇪 德国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 10
-      - 🇨🇳 中国(TG频道:@kxswa) 105
-      - 🇩🇪 德国(TG频道:@kxswa) 2
-      - 🇨🇳 中国(TG频道:@kxswa) 106
-      - 🇨🇳 中国(TG频道:@kxswa) 107
-      - 🇨🇳 中国(TG频道:@kxswa) 108
-      - 🇬🇧 英国(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 11
-      - 🇨🇳 中国(TG频道:@kxswa) 109
-      - 🇨🇳 中国(TG频道:@kxswa) 110
-      - 🇨🇳 中国(TG频道:@kxswa) 111
-      - 🇨🇳 中国(TG频道:@kxswa) 112
-      - 🇨🇳 中国(TG频道:@kxswa) 113
-      - 🇬🇧 英国(TG频道:@kxswa) 3
-      - 🇨🇳 中国(TG频道:@kxswa) 114
-      - 🇨🇳 中国(TG频道:@kxswa) 115
-      - 🇨🇳 中国(TG频道:@kxswa) 116
-      - 🇺🇸 美国(TG频道:@kxswa) 12
-      - 🇬🇧 英国(TG频道:@kxswa) 4
-      - 🇨🇳 中国(TG频道:@kxswa) 117
-      - 🇨🇳 中国(TG频道:@kxswa) 118
-      - 🇨🇳 中国(TG频道:@kxswa) 119
-      - 🇨🇳 中国(TG频道:@kxswa) 120
-      - 🇺🇸 美国(TG频道:@kxswa) 13
-      - 🇨🇳 中国(TG频道:@kxswa) 121
-      - 🇬🇧 英国(TG频道:@kxswa) 5
-      - 🇨🇳 中国(TG频道:@kxswa) 122
-      - 🇨🇳 中国(TG频道:@kxswa) 123
-      - 🇨🇳 中国(TG频道:@kxswa) 124
-      - 🇨🇳 中国(TG频道:@kxswa) 125
-      - 🇨🇳 中国(TG频道:@kxswa) 126
-      - 🇨🇳 中国(TG频道:@kxswa) 127
-      - 🇨🇳 中国(TG频道:@kxswa) 128
-      - 🇨🇳 中国(TG频道:@kxswa) 129
-      - 🇨🇳 中国(TG频道:@kxswa) 130
-      - 🇨🇳 中国(TG频道:@kxswa) 131
-      - 🇨🇳 中国(TG频道:@kxswa) 132
-      - 🇨🇳 中国(TG频道:@kxswa) 133
-      - 🇨🇳 中国(TG频道:@kxswa) 134
-      - 🇨🇳 中国(TG频道:@kxswa) 135
-      - 🇨🇳 中国(TG频道:@kxswa) 136
-      - 🇨🇳 中国(TG频道:@kxswa) 137
-      - 🇨🇳 中国(TG频道:@kxswa) 138
-      - 🇨🇳 中国(TG频道:@kxswa) 139
-      - 🇨🇳 中国(TG频道:@kxswa) 140
-      - 🇺🇸 美国(TG频道:@kxswa) 14
-      - 🇮🇹 意大利(TG频道:@kxswa)
   - name: 🔮 负载均衡
     type: load-balance
     strategy: round-robin
@@ -569,8 +293,9 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa)
+      - 🇰🇷 韩国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 4
-      - 🇭🇰 香港(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 7
@@ -581,27 +306,32 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 12
       - 🇨🇳 中国(TG频道:@kxswa) 13
       - 🇨🇳 中国(TG频道:@kxswa) 14
-      - 🇫🇷 法国(TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 15
       - 🇨🇳 中国(TG频道:@kxswa) 16
       - 🇨🇳 中国(TG频道:@kxswa) 17
       - 🇨🇳 中国(TG频道:@kxswa) 18
       - 🇨🇳 中国(TG频道:@kxswa) 19
-      - 🇯🇵 日本(TG频道:@kxswa)
-      - 🇯🇵 日本(TG频道:@kxswa) 2
-      - 🇯🇵 日本(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 20
       - 🇨🇳 中国(TG频道:@kxswa) 21
       - 🇨🇳 中国(TG频道:@kxswa) 22
       - 🇨🇳 中国(TG频道:@kxswa) 23
       - 🇨🇳 中国(TG频道:@kxswa) 24
       - 🇨🇳 中国(TG频道:@kxswa) 25
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 26
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇺🇸 美国(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 4
+      - 🇸🇬 新加坡(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 27
+      - 🇸🇬 新加坡(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 28
       - 🇨🇳 中国(TG频道:@kxswa) 29
       - 🇨🇳 中国(TG频道:@kxswa) 30
       - 🇨🇳 中国(TG频道:@kxswa) 31
+      - 🇺🇸 美国(TG频道:@kxswa) 3
+      - 🇸🇬 新加坡(TG频道:@kxswa) 7
       - 🇨🇳 中国(TG频道:@kxswa) 32
       - 🇨🇳 中国(TG频道:@kxswa) 33
       - 🇨🇳 中国(TG频道:@kxswa) 34
@@ -609,24 +339,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 36
       - 🇨🇳 中国(TG频道:@kxswa) 37
       - 🇨🇳 中国(TG频道:@kxswa) 38
+      - (TG频道:@kxswa)
       - 🇨🇳 中国(TG频道:@kxswa) 39
+      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 40
       - 🇨🇳 中国(TG频道:@kxswa) 41
       - 🇨🇳 中国(TG频道:@kxswa) 42
       - 🇨🇳 中国(TG频道:@kxswa) 43
       - 🇨🇳 中国(TG频道:@kxswa) 44
       - 🇨🇳 中国(TG频道:@kxswa) 45
-      - 🇺🇸 美国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 46
+      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 47
       - 🇨🇳 中国(TG频道:@kxswa) 48
       - 🇨🇳 中国(TG频道:@kxswa) 49
       - 🇨🇳 中国(TG频道:@kxswa) 50
-      - 🇺🇸 美国(TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 51
-      - 🇭🇰 香港(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 52
       - 🇨🇳 中国(TG频道:@kxswa) 53
       - 🇨🇳 中国(TG频道:@kxswa) 54
@@ -634,118 +362,22 @@ proxy-groups:
       - 🇨🇳 中国(TG频道:@kxswa) 56
       - 🇨🇳 中国(TG频道:@kxswa) 57
       - 🇨🇳 中国(TG频道:@kxswa) 58
-      - (TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 5
       - 🇨🇳 中国(TG频道:@kxswa) 59
+      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 60
-      - (TG频道:@kxswa) 2
-      - (TG频道:@kxswa) 3
       - 🇨🇳 中国(TG频道:@kxswa) 61
       - 🇨🇳 中国(TG频道:@kxswa) 62
-      - 🇺🇸 美国(TG频道:@kxswa) 6
       - 🇨🇳 中国(TG频道:@kxswa) 63
+      - (TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 64
       - 🇨🇳 中国(TG频道:@kxswa) 65
-      - 🇺🇸 美国(TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 4
       - 🇨🇳 中国(TG频道:@kxswa) 66
       - 🇨🇳 中国(TG频道:@kxswa) 67
       - 🇨🇳 中国(TG频道:@kxswa) 68
+      - 🇰🇷 韩国(TG频道:@kxswa) 2
       - 🇨🇳 中国(TG频道:@kxswa) 69
       - 🇨🇳 中国(TG频道:@kxswa) 70
       - 🇨🇳 中国(TG频道:@kxswa) 71
-      - 🇨🇳 中国(TG频道:@kxswa) 72
-      - 🇨🇳 中国(TG频道:@kxswa) 73
-      - 🇸🇬 新加坡(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 74
-      - 🇸🇬 新加坡(TG频道:@kxswa) 2
-      - 🇸🇬 新加坡(TG频道:@kxswa) 3
-      - 🇸🇬 新加坡(TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 5
-      - 🇸🇬 新加坡(TG频道:@kxswa) 6
-      - 🇨🇳 中国(TG频道:@kxswa) 75
-      - 🇸🇬 新加坡(TG频道:@kxswa) 7
-      - 🇨🇳 中国(TG频道:@kxswa) 76
-      - 🇨🇳 中国(TG频道:@kxswa) 77
-      - 🇨🇳 中国(TG频道:@kxswa) 78
-      - 🇨🇳 中国(TG频道:@kxswa) 79
-      - 🇨🇳 中国(TG频道:@kxswa) 80
-      - 🇨🇳 中国(TG频道:@kxswa) 81
-      - 🇨🇳 中国(TG频道:@kxswa) 82
-      - 🇨🇳 中国(TG频道:@kxswa) 83
-      - 🇨🇳 中国(TG频道:@kxswa) 84
-      - 🇨🇳 中国(TG频道:@kxswa) 85
-      - 🇨🇳 中国(TG频道:@kxswa) 86
-      - 🇨🇳 中国(TG频道:@kxswa) 87
-      - 🇨🇳 中国(TG频道:@kxswa) 88
-      - 🇺🇸 美国(TG频道:@kxswa) 8
-      - 🇨🇳 中国(TG频道:@kxswa) 89
-      - 🇨🇳 中国(TG频道:@kxswa) 90
-      - 🇨🇳 中国(TG频道:@kxswa) 91
-      - 🇨🇳 中国(TG频道:@kxswa) 92
-      - 🇬🇧 英国(TG频道:@kxswa)
-      - 🇨🇳 中国(TG频道:@kxswa) 93
-      - 🇺🇸 美国(TG频道:@kxswa) 9
-      - 🇨🇳 中国(TG频道:@kxswa) 94
-      - 🇨🇳 中国(TG频道:@kxswa) 95
-      - 🇨🇳 中国(TG频道:@kxswa) 96
-      - 🇨🇳 中国(TG频道:@kxswa) 97
-      - 🇨🇳 中国(TG频道:@kxswa) 98
-      - 🇨🇳 中国(TG频道:@kxswa) 99
-      - 🇨🇳 中国(TG频道:@kxswa) 100
-      - 🇨🇳 中国(TG频道:@kxswa) 101
-      - 🇨🇳 中国(TG频道:@kxswa) 102
-      - 🇨🇳 中国(TG频道:@kxswa) 103
-      - 🇨🇳 中国(TG频道:@kxswa) 104
-      - 🇩🇪 德国(TG频道:@kxswa)
-      - 🇺🇸 美国(TG频道:@kxswa) 10
-      - 🇨🇳 中国(TG频道:@kxswa) 105
-      - 🇩🇪 德国(TG频道:@kxswa) 2
-      - 🇨🇳 中国(TG频道:@kxswa) 106
-      - 🇨🇳 中国(TG频道:@kxswa) 107
-      - 🇨🇳 中国(TG频道:@kxswa) 108
-      - 🇬🇧 英国(TG频道:@kxswa) 2
-      - 🇺🇸 美国(TG频道:@kxswa) 11
-      - 🇨🇳 中国(TG频道:@kxswa) 109
-      - 🇨🇳 中国(TG频道:@kxswa) 110
-      - 🇨🇳 中国(TG频道:@kxswa) 111
-      - 🇨🇳 中国(TG频道:@kxswa) 112
-      - 🇨🇳 中国(TG频道:@kxswa) 113
-      - 🇬🇧 英国(TG频道:@kxswa) 3
-      - 🇨🇳 中国(TG频道:@kxswa) 114
-      - 🇨🇳 中国(TG频道:@kxswa) 115
-      - 🇨🇳 中国(TG频道:@kxswa) 116
-      - 🇺🇸 美国(TG频道:@kxswa) 12
-      - 🇬🇧 英国(TG频道:@kxswa) 4
-      - 🇨🇳 中国(TG频道:@kxswa) 117
-      - 🇨🇳 中国(TG频道:@kxswa) 118
-      - 🇨🇳 中国(TG频道:@kxswa) 119
-      - 🇨🇳 中国(TG频道:@kxswa) 120
-      - 🇺🇸 美国(TG频道:@kxswa) 13
-      - 🇨🇳 中国(TG频道:@kxswa) 121
-      - 🇬🇧 英国(TG频道:@kxswa) 5
-      - 🇨🇳 中国(TG频道:@kxswa) 122
-      - 🇨🇳 中国(TG频道:@kxswa) 123
-      - 🇨🇳 中国(TG频道:@kxswa) 124
-      - 🇨🇳 中国(TG频道:@kxswa) 125
-      - 🇨🇳 中国(TG频道:@kxswa) 126
-      - 🇨🇳 中国(TG频道:@kxswa) 127
-      - 🇨🇳 中国(TG频道:@kxswa) 128
-      - 🇨🇳 中国(TG频道:@kxswa) 129
-      - 🇨🇳 中国(TG频道:@kxswa) 130
-      - 🇨🇳 中国(TG频道:@kxswa) 131
-      - 🇨🇳 中国(TG频道:@kxswa) 132
-      - 🇨🇳 中国(TG频道:@kxswa) 133
-      - 🇨🇳 中国(TG频道:@kxswa) 134
-      - 🇨🇳 中国(TG频道:@kxswa) 135
-      - 🇨🇳 中国(TG频道:@kxswa) 136
-      - 🇨🇳 中国(TG频道:@kxswa) 137
-      - 🇨🇳 中国(TG频道:@kxswa) 138
-      - 🇨🇳 中国(TG频道:@kxswa) 139
-      - 🇨🇳 中国(TG频道:@kxswa) 140
-      - 🇺🇸 美国(TG频道:@kxswa) 14
-      - 🇮🇹 意大利(TG频道:@kxswa)
 rules:
  - DOMAIN-KEYWORD,admarvel,REJECT
  - DOMAIN-KEYWORD,admaster,REJECT
