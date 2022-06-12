@@ -6,9 +6,9 @@
 ***  
 ### 免翻链接  
 - base64格式(适用于v2ray、小火箭等)  
-https://raw.gitslow.tk/kxswa/k/k/long  
+https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/long
 - yaml格式(适用于clash)  
-https://raw.gitslow.tk/kxswa/k/k/yaml  
+https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/yaml
 ### 永久订阅链接  
 - base64格式(适用于v2ray、小火箭等)  
 https://raw.githubusercontent.com/kxswa/k/k/long  
