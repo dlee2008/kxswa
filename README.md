@@ -14,4 +14,4 @@ https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/yaml
 https://raw.githubusercontent.com/kxswa/k/k/long  
 - yaml格式(适用于clash)  
 https://raw.githubusercontent.com/kxswa/k/k/yaml  
-#### 建议每天更新一次订阅
+#### 建议每天更新下订阅
