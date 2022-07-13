@@ -6,12 +6,12 @@
 ***  
 ### 免翻链接  
 - base64格式(适用于v2ray、小火箭等)  
-https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/long
+https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/v2ray
 - yaml格式(适用于clash)  
-https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/yaml
+https://ghproxy.com/https://raw.githubusercontent.com/kxswa/k/k/clash
 ### 原始链接  
 - base64格式(适用于v2ray、小火箭等)  
-https://raw.githubusercontent.com/kxswa/k/k/long  
+https://raw.githubusercontent.com/kxswa/k/k/v2ray  
 - yaml格式(适用于clash)  
-https://raw.githubusercontent.com/kxswa/k/k/yaml  
+https://raw.githubusercontent.com/kxswa/k/k/clash  
 #### 建议每天更新下订阅
