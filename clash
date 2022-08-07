@@ -5,151 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国01(TG频道:@kxswa), server: 54.180.124.99, port: 1253, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 韩国02(TG频道:@kxswa), server: 54.180.124.99, port: 1256, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国01(TG频道:@kxswa), server: 45.79.195.73, port: 1252, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国02(TG频道:@kxswa), server: 20.239.160.179, port: 55601, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国03(TG频道:@kxswa), server: 20.239.160.179, port: 24834, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国04(TG频道:@kxswa), server: 147.182.253.160, port: 1261, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国05(TG频道:@kxswa), server: 147.182.253.160, port: 1290, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国06(TG频道:@kxswa), server: 45.43.27.114, port: 1288, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国07(TG频道:@kxswa), server: 45.43.27.114, port: 1261, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国08(TG频道:@kxswa), server: 107.174.229.24, port: 1251, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国09(TG频道:@kxswa), server: 45.43.27.114, port: 1274, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国10(TG频道:@kxswa), server: 34.227.171.48, port: 1268, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国11(TG频道:@kxswa), server: 143.198.154.174, port: 1265, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 美国12(TG频道:@kxswa), server: 143.198.154.174, port: 1271, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 美国13(TG频道:@kxswa), server: 54.193.208.2, port: 1256, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 日本01(TG频道:@kxswa), server: 13.208.164.139, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 日本02(TG频道:@kxswa), server: 52.193.38.85, port: 125, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 日本03(TG频道:@kxswa), server: 13.208.164.139, port: 80, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 日本04(TG频道:@kxswa), server: 13.208.164.139, port: 80, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡01(TG频道:@kxswa), server: 143.198.193.139, port: 1254, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡02(TG频道:@kxswa), server: 143.198.193.139, port: 1262, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡03(TG频道:@kxswa), server: 13.214.181.7, port: 1253, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡04(TG频道:@kxswa), server: 13.214.181.7, port: 1262, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡05(TG频道:@kxswa), server: 13.215.252.115, port: 1252, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡06(TG频道:@kxswa), server: 18.140.64.131, port: 80, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡07(TG频道:@kxswa), server: 13.213.36.126, port: 1251, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡08(TG频道:@kxswa), server: 13.213.36.126, port: 125, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡09(TG频道:@kxswa), server: 13.215.252.115, port: 127, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡10(TG频道:@kxswa), server: 18.140.64.131, port: 1251, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡11(TG频道:@kxswa), server: 54.193.208.2, port: 1253, type: vmess, uuid: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡12(TG频道:@kxswa), server: 54.251.191.254, port: 1275, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
-  - {name: 新加坡13(TG频道:@kxswa), server: 54.251.191.254, port: 1247, type: ss, cipher: chacha20-ietf-poly1305, password: 7bcf0d28-c923-4cbd-82ea-68cbad925a64, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 2, server: 103.56.60.185, port: 3381, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 3, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 4, server: sg-cn-relay-6-689145.dk-3a4e.com, port: 9306, type: trojan, password: f2a28b26-3462-11e9-96d3-020b85e0a428, sni: sg-cn-relay-6-689145.dk-3a4e.com, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 5, server: sg-cn-hk-relay-3-dd4440.dk-3a4e.com, port: 9303, type: trojan, password: f2a28b26-3462-11e9-96d3-020b85e0a428, sni: sg-cn-hk-relay-3-dd4440.dk-3a4e.com, skip-cert-verify: true, udp: true}
+  - {name: 印度(TG频道:@kxswa), server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa), server: 18.141.207.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 2, server: 727tw02.ok365.cyou, port: 25689, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 727tw02.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@kxswa) 3, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa), server: hk1.qinghuanyun.top, port: 80, type: vmess, uuid: f25b13fb-b5ee-3f6b-a44c-3d35788b92df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.qinghuanyun.top}, udp: true}
+  - {name: 香港(TG频道:@kxswa) 2, server: 223.17.43.52, port: 44601, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 3, server: 87sg.ok365.cyou, port: 12315, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 87sg.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 4, server: 87hk01.ok365.cyou, port: 12315, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 87hk01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 香港(TG频道:@kxswa) 5, server: 87hk03.ok365.cyou, port: 443, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 87hk03.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 日本(TG频道:@kxswa), server: jp5.qinghuanyun.top, port: 443, type: vmess, uuid: f25b13fb-b5ee-3f6b-a44c-3d35788b92df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp5.qinghuanyun.top}, udp: true}
+  - {name: 日本(TG频道:@kxswa) 2, server: 730jp.ok365.cyou, port: 443, type: trojan, password: a37bd567-ae37-4e78-8d9d-0f414d3628de, sni: 730jp.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 2, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, sni: spotted.bigkangaroo.net, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 3, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 4, server: 104.168.144.215, port: 443, type: trojan, password: srGSKqR5Fv, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa) 5, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 捷克(TG频道:@kxswa), server: t03.ssrsub.com, port: 852, type: trojan, password: 2080d7ca-d6cd-4d23-b46e-2251483bd32c, sni: t03.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(TG频道:@kxswa), server: 209.209.9.149, port: 46539, type: trojan, password: 2Q74kEsaZq, skip-cert-verify: true, udp: true}
+  - {name: 法国(TG频道:@kxswa), server: kr-01.licom.ml, port: 11050, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: kr-01.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 阿联酋(TG频道:@kxswa), server: 193.123.65.213, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,155 +140,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +281,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国01(TG频道:@kxswa)
-      - 韩国02(TG频道:@kxswa)
-      - 美国01(TG频道:@kxswa)
-      - 美国02(TG频道:@kxswa)
-      - 美国03(TG频道:@kxswa)
-      - 美国04(TG频道:@kxswa)
-      - 美国05(TG频道:@kxswa)
-      - 美国06(TG频道:@kxswa)
-      - 美国07(TG频道:@kxswa)
-      - 美国08(TG频道:@kxswa)
-      - 美国09(TG频道:@kxswa)
-      - 美国10(TG频道:@kxswa)
-      - 美国11(TG频道:@kxswa)
-      - 美国12(TG频道:@kxswa)
-      - 美国13(TG频道:@kxswa)
-      - 日本01(TG频道:@kxswa)
-      - 日本02(TG频道:@kxswa)
-      - 日本03(TG频道:@kxswa)
-      - 日本04(TG频道:@kxswa)
-      - 新加坡01(TG频道:@kxswa)
-      - 新加坡02(TG频道:@kxswa)
-      - 新加坡03(TG频道:@kxswa)
-      - 新加坡04(TG频道:@kxswa)
-      - 新加坡05(TG频道:@kxswa)
-      - 新加坡06(TG频道:@kxswa)
-      - 新加坡07(TG频道:@kxswa)
-      - 新加坡08(TG频道:@kxswa)
-      - 新加坡09(TG频道:@kxswa)
-      - 新加坡10(TG频道:@kxswa)
-      - 新加坡11(TG频道:@kxswa)
-      - 新加坡12(TG频道:@kxswa)
-      - 新加坡13(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - 中国(TG频道:@kxswa) 5
+      - 印度(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa)
+      - 新加坡(TG频道:@kxswa) 2
+      - 新加坡(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa)
+      - 香港(TG频道:@kxswa) 2
+      - 香港(TG频道:@kxswa) 3
+      - 香港(TG频道:@kxswa) 4
+      - 香港(TG频道:@kxswa) 5
+      - 日本(TG频道:@kxswa)
+      - 日本(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa) 2
+      - 美国(TG频道:@kxswa) 3
+      - 美国(TG频道:@kxswa) 4
+      - 美国(TG频道:@kxswa) 5
+      - 捷克(TG频道:@kxswa)
+      - 加拿大(TG频道:@kxswa)
+      - 法国(TG频道:@kxswa)
+      - 阿联酋(TG频道:@kxswa)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
