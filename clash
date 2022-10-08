@@ -5,146 +5,307 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 更新于10/07/13:20, server: sgp.naixii.xyz, port: 443, type: vmess, uuid: 0aabdcbd-805f-4f4c-ba24-b176e736b37d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /b26c74ee96d/, ws-headers: {Host: ip48.ip-139-99-117.net}, udp: true}
+  - {name: 更新与10/08/09:10, server: 221.131.165.72, port: 9005, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国, server: 221.131.165.72, port: 9037, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 2, server: 111.45.22.152, port: 9019, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 3, server: 111.45.22.152, port: 9005, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 4, server: 111.45.22.151, port: 9016, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 5, server: 111.45.22.152, port: 9036, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 6, server: 221.131.165.72, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 7, server: 111.45.22.152, port: 9014, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 8, server: in06.my1188.org, port: 64086, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 9, server: unicomv3.mipglxi.cn, port: 6616, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 10, server: 111.45.22.152, port: 9039, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 11, server: 111.45.22.151, port: 9044, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |台湾, server: 61.222.18.208, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |中国 12, server: 221.131.165.72, port: 9036, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 13, server: 221.131.165.72, port: 9032, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 14, server: 221.131.165.72, port: 9008, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 15, server: 111.45.22.152, port: 9044, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 16, server: 221.131.165.89, port: 59446, type: ss, cipher: chacha20-ietf-poly1305, password: 3c1f3PA4GQZB8, udp: true}
+  - {name: TG频道:@kxswa |中国 17, server: 221.131.165.72, port: 9045, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 18, server: 116.129.254.6, port: 9005, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 19, server: 111.45.22.151, port: 9019, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 20, server: 111.45.22.152, port: 9000, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 21, server: 221.131.165.72, port: 9016, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 22, server: 221.131.165.72, port: 9030, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 23, server: 221.131.165.72, port: 9043, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 24, server: 116.129.254.6, port: 9014, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 25, server: 111.45.22.151, port: 9043, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 26, server: 111.45.22.152, port: 11906, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 27, server: 116.129.254.6, port: 9019, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 28, server: 111.45.22.151, port: 9031, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 29, server: 116.129.254.6, port: 9005, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 30, server: 221.131.165.72, port: 9034, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 31, server: 116.129.254.6, port: 9004, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 32, server: 111.45.22.152, port: 9043, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 33, server: 221.131.165.72, port: 9014, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 34, server: 221.131.165.72, port: 11907, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 35, server: 111.45.22.152, port: 9008, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |香港, server: 43.229.153.165, port: 52000, type: trojan, password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 36, server: 116.129.254.6, port: 9016, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 37, server: 116.129.254.6, port: 9003, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 38, server: 221.131.165.72, port: 11906, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 39, server: 111.45.22.152, port: 11907, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 40, server: 221.131.165.89, port: 59454, type: ss, cipher: chacha20-ietf-poly1305, password: aQQCKo9v2OLmg, udp: true}
+  - {name: TG频道:@kxswa |中国 41, server: iplc01.my1188.org, port: 3144, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt01.pqs-vds.in168.net}, udp: true}
+  - {name: TG频道:@kxswa |中国 42, server: 111.45.22.152, port: 11904, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 43, server: 111.45.22.152, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 44, server: cneast-01.turingnet.top, port: 27219, type: trojan, password: 1107ee24-c09d-48ae-a12a-58cf64cdc015, sni: cneast-01.turingnet.top, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 45, server: 116.129.254.6, port: 9002, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |韩国, server: or-kr-1.chaojidatanke.buzz, port: 443, type: vmess, uuid: b58726de-4a1a-3a1e-a0ff-c087aaa0d5f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: or-kr-1.chaojidatanke.buzz}, udp: true}
+  - {name: TG频道:@kxswa |中国 46, server: 221.131.165.72, port: 9042, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 47, server: iplc01.my1188.org, port: 3114, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkg01.pqs.in168.net}, udp: true}
+  - {name: TG频道:@kxswa |中国 48, server: in04.my1188.org, port: 64088, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 49, server: 111.45.22.151, port: 9010, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 50, server: 111.45.22.151, port: 9014, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 51, server: 116.129.254.6, port: 9022, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 52, server: 111.45.22.151, port: 9045, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TG频道:@kxswa |日本, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: 172.105.219.18}, udp: true}
-  - {name: TG频道:@kxswa |香港, server: 47.243.53.166, port: 53132, type: vmess, uuid: dd9503be-4542-451b-a2a0-3cf26d4af98d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.53.166]}}, udp: true}
-  - {name: TG频道:@kxswa |香港 2, server: 47.242.185.162, port: 46143, type: vmess, uuid: 5a6a6f9f-fc53-4fa8-8352-f8cc34bcf131, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.185.162]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 53, server: 111.45.22.151, port: 11906, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 54, server: 221.131.165.72, port: 11925, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 55, server: 116.129.254.6, port: 9026, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 56, server: 116.129.254.6, port: 9025, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 57, server: in02.my1188.org, port: 64088, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 58, server: unicomus.mipglxi.cn, port: 6631, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 59, server: 221.131.165.72, port: 9039, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 60, server: 221.131.165.72, port: 9038, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 61, server: in06.my1188.org, port: 64088, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 62, server: 111.45.22.152, port: 9004, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 63, server: 116.129.254.6, port: 9023, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 64, server: 116.129.254.6, port: 9029, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |日本 2, server: 47.74.51.30, port: 443, type: vmess, uuid: b86d9844-43ee-4ef4-bf68-41ffd6345e36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /2yevws, ws-headers: {Host: cc.1808.cf}, udp: true}
+  - {name: TG频道:@kxswa |中国 65, server: 116.129.254.6, port: 9028, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 66, server: 221.131.165.72, port: 9041, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 67, server: 221.131.165.72, port: 9023, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 68, server: unicomus.mipglxi.cn, port: 6627, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 69, server: 221.131.165.72, port: 9001, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 70, server: 221.131.165.72, port: 9026, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 71, server: unicomus.mipglxi.cn, port: 6630, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 72, server: 111.45.22.151, port: 9005, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 73, server: iplc01.my1188.org, port: 3204, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt4-cdn-myip.airport-v2.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 74, server: 221.131.165.72, port: 9040, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 75, server: 116.129.254.6, port: 9001, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 76, server: 111.45.22.151, port: 9034, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 77, server: in04.my1188.org, port: 64069, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-us03.covid19.rip}, udp: true}
+  - {name: TG频道:@kxswa |, server: cfhk.oppo.quest, port: 80, type: vmess, uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: scw.cloudflare.quest}, udp: true}
+  - {name: TG频道:@kxswa |中国 78, server: 221.131.165.72, port: 9028, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 79, server: unicomus.mipglxi.cn, port: 6628, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 80, server: 111.45.22.151, port: 9037, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 81, server: 116.129.254.6, port: 9024, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 82, server: 221.131.165.72, port: 9027, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 83, server: 116.129.254.6, port: 9027, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 84, server: 116.129.254.29, port: 3381, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |波兰, server: 5.188.108.111, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 85, server: 221.131.165.72, port: 9022, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 86, server: unicomus.mipglxi.cn, port: 6629, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 87, server: 111.45.22.151, port: 9036, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 88, server: 111.45.22.151, port: 9035, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 89, server: unicomus.mipglxi.cn, port: 6632, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 90, server: 116.129.253.134, port: 3381, type: trojan, password: d02058f4f819dced, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 91, server: 111.45.22.151, port: 9038, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 92, server: 116.129.254.6, port: 11918, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 93, server: in02.my1188.org, port: 64069, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-us03.covid19.rip}, udp: true}
   - {name: TG频道:@kxswa |俄罗斯联邦, server: 91.243.82.249, port: 20003, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |香港 3, server: 47.242.86.208, port: 48788, type: vmess, uuid: 46664d6f-f900-47eb-976c-f3893d1def3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.86.208]}}, udp: true}
-  - {name: TG频道:@kxswa |俄罗斯联邦 2, server: 91.243.82.249, port: 20005, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |中国, server: 43.154.9.57, port: 42429, type: vmess, uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.9.57]}}, udp: true}
-  - {name: TG频道:@kxswa |俄罗斯联邦 3, server: 91.243.82.249, port: 20002, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |俄罗斯联邦 4, server: 91.243.82.249, port: 20004, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |美国, server: 172.64.153.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}, udp: true}
-  - {name: TG频道:@kxswa |美国 2, server: 172.64.144.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}, udp: true}
-  - {name: TG频道:@kxswa |荷兰, server: 51.15.110.0, port: 80, type: vmess, uuid: 0aaf081d-b23c-4b6a-a85f-ed4bffcb1a2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 51.15.110.0}, udp: true}
-  - {name: TG频道:@kxswa |日本 2, server: 8.209.252.35, port: 443, type: vmess, uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /down, ws-headers: {Host: js.adbse.xyz}, udp: true}
-  - {name: TG频道:@kxswa |中国 2, server: 112.45.34.140, port: 80, type: vmess, uuid: 4a85a357-9e6a-4035-bc5e-b7da792beadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: TG频道:@kxswa |中国 3, server: 119.91.223.167, port: 80, type: vmess, uuid: 5087e6ea-b650-443e-923f-b754661b8c47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 119.91.223.167}, udp: true}
-  - {name: TG频道:@kxswa |中国 4, server: in01.my1188.org, port: 63086, type: vmess, uuid: d78c0bf3-b5bb-3948-b5af-83379d8c917f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: TG频道:@kxswa |台湾, server: 61.220.112.248, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1ce509eb12ce, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness009re.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |台湾 2, server: 61.219.97.215, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |, server: fn600mlines008.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa | 2, server: 103.177.33.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fc568c325d09, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008.fnline.vip, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |日本 3, server: 193.38.139.203, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: TG频道:@kxswa |俄罗斯联邦 5, server: 5.189.223.250, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |荷兰, server: c90s5.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 94, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 2, server: 91.243.82.249, port: 20003, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 2, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 3, server: 2.56.178.201, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |美国 4, server: c90s801.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 5, server: 45.80.209.143, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 95, server: 221.131.165.72, port: 11929, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 6, server: usarm.ptuu.cf, port: 443, type: vmess, uuid: cb7c9465-ca11-44c8-ab8f-3585631fa640, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: usarm.ptuu.cf}, udp: true}
+  - {name: TG频道:@kxswa |中国 96, server: 111.45.22.151, port: 11929, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa | 2, server: shopify.com, port: 80, type: vmess, uuid: 36bd9969-bb96-4bdd-a6df-960bbd8e4439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: tguk.cloudflare.quest}, udp: true}
+  - {name: TG频道:@kxswa |中国 97, server: 221.131.165.72, port: 11908, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 98, server: 221.131.165.72, port: 11926, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 99, server: 111.45.22.152, port: 11929, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 100, server: 221.131.165.72, port: 11917, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TG频道:@kxswa |西班牙, server: 95.85.89.158, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |日本 4, server: 193.38.139.203, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: TG频道:@kxswa |台湾 3, server: 61.222.34.83, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a57a10279872, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines022.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |法国, server: 51.83.185.94, port: 80, type: vmess, uuid: 4aa457f6-5ff4-477f-ba24-17bf291aea53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 51.83.185.94}, udp: true}
+  - {name: TG频道:@kxswa | 3, server: cdn.bootloader.cf, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: lux.justu.ml}, udp: true}
+  - {name: TG频道:@kxswa |日本 3, server: 172.105.219.18, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: 172.105.219.18}, udp: true}
+  - {name: TG频道:@kxswa |美国 7, server: 192.161.164.156, port: 40338, type: vmess, uuid: fe20f87d-4e11-4c2a-af6e-5b8bd9927092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 8, server: aa.houdinix.space, port: 56656, type: vmess, uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
+  - {name: TG频道:@kxswa |中国 101, server: 116.162.120.23, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 3, server: 91.243.82.249, port: 20005, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |香港 2, server: 47.243.143.215, port: 64008, type: vmess, uuid: dae844ab-4613-4884-893e-14b74ba4b687, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.143.215]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 102, server: in01.my1188.org, port: 64086, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa | 4, server: shopify.com, port: 80, type: vmess, uuid: 90e35d9e-d5a0-4ffa-fdeb-f5c14f957b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: tgsg.cloudflare.quest}, udp: true}
+  - {name: TG频道:@kxswa |中国 103, server: 116.162.120.23, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: VjJ0V1RrMVhVa2RqUmxKUVZrVndjVlZ1Y0Zka2JHUlhZVVpK, udp: true}
+  - {name: TG频道:@kxswa |中国 104, server: 111.45.22.152, port: 11917, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 105, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
+  - {name: TG频道:@kxswa |香港 3, server: 47.243.250.21, port: 32895, type: vmess, uuid: ae7f10da-663f-4fe2-a141-a23eab12e83e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.250.21]}}, udp: true}
+  - {name: TG频道:@kxswa |日本 4, server: 194.156.231.23, port: 999, type: vmess, uuid: 9088612a-6681-4253-c5b7-6028c99d3051, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /norio, ws-headers: {Host: 194.156.231.23}, udp: true}
+  - {name: TG频道:@kxswa |中国 106, server: 111.45.22.152, port: 9028, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |以色列, server: 83.229.73.60, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 107, server: 111.45.22.152, port: 11926, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 108, server: 111.45.22.152, port: 11925, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |法国 2, server: 51.68.126.193, port: 80, type: vmess, uuid: d4a79505-dd7f-47e4-98b7-30c9fa77fa66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 51.68.126.193}, udp: true}
+  - {name: TG频道:@kxswa |中国 109, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
+  - {name: TG频道:@kxswa |美国 9, server: 172.64.153.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 110, server: iplc01.my1188.org, port: 3174, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-fdc1.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |中国 111, server: 111.45.22.151, port: 11919, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 112, server: 221.131.165.89, port: 59452, type: ss, cipher: chacha20-ietf-poly1305, password: jNAtRFep3rD6R, udp: true}
+  - {name: TG频道:@kxswa |美国 10, server: 172.64.153.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |美国 11, server: 172.64.153.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 4, server: 91.243.82.249, port: 20005, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 113, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ, udp: true}
+  - {name: TG频道:@kxswa |中国 114, server: 111.45.22.152, port: 11919, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 115, server: 111.45.22.152, port: 9029, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 116, server: 111.45.22.151, port: 11916, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 12, server: 104.249.173.156, port: 50001, type: ss, cipher: aes-256-cfb, password: !<str> 3886060542, udp: true}
+  - {name: TG频道:@kxswa |中国 117, server: 111.45.22.152, port: 11934, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 118, server: 221.131.165.72, port: 11913, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 119, server: 111.45.22.152, port: 11915, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 120, server: iplc01.my1188.org, port: 3154, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-iepl.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |美国 13, server: sgarm.ptuu.cf, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}, udp: true}
+  - {name: TG频道:@kxswa |中国 121, server: iplc01.my1188.org, port: 3074, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw03.yaofan.in168.net}, udp: true}
+  - {name: TG频道:@kxswa |中国 122, server: 111.45.22.151, port: 11915, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 123, server: 111.45.22.151, port: 11913, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 124, server: 111.45.22.152, port: 11901, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TG频道:@kxswa |英国, server: 142.202.51.98, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |西班牙 2, server: 95.85.89.159, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
   - {name: TG频道:@kxswa |葡萄牙, server: 185.113.140.247, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |保加利亚, server: 146.70.53.242, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |台湾 4, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |墨西哥, server: 191.96.145.108, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |瑞士, server: 37.120.213.34, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |日本 5, server: 193.38.139.203, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: TG频道:@kxswa |澳大利亚, server: 185.167.116.250, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: TG频道:@kxswa |日本 6, server: 193.38.139.203, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: TG频道:@kxswa |以色列, server: 146.185.219.191, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |法国, server: 54.38.144.255, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: TG频道:@kxswa |台湾 5, server: 61.222.34.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4a386af7970a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines023.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |美国 3, server: xmssmf01.xmss.vip, port: 16666, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
-  - {name: TG频道:@kxswa |美国 4, server: 104.249.173.156, port: 50001, type: ss, cipher: aes-256-cfb, password: !<str> 3886060542, udp: true}
-  - {name: TG频道:@kxswa |中国 5, server: 14.29.124.174, port: 11015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道:@kxswa |台湾 6, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: TG频道:@kxswa |美国 5, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |中国 6, server: 116.129.253.134, port: 3381, type: trojan, password: d02058f4f819dced, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |美国 6, server: 138.2.45.243, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |null, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |加拿大, server: 149.56.141.11, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |加拿大 2, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, sni: cat1.sshocean.net, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |中国 7, server: 116.129.254.29, port: 3381, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |韩国, server: kr1.api-aws.com, port: 443, type: trojan, password: 84773125-8f79-481c-a80b-e1f4aad86850, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |中国 8, server: xjpa-zf.jiashumao.net, port: 14687, type: trojan, password: 4f308591-17f7-3d0f-8407-67f0c29ef27b, sni: xjpa-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |新加坡, server: 165.154.253.15, port: 49001, type: trojan, password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |日本 7, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, sni: nice-jp03.tiktokcdn.buzz, skip-cert-verify: true, udp: true}
-  - {name: TG频道:@kxswa |中国 9, server: 183.232.141.117, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |香港 4, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 10, server: 183.232.141.107, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: TG频道:@kxswa |中国 11, server: 183.232.141.119, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: TG频道:@kxswa |中国 12, server: 223.166.145.153, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 13, server: 223.166.145.153, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 14, server: 183.232.141.120, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 15, server: 183.232.141.114, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 16, server: 116.162.120.24, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 17, server: 183.232.141.87, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 18, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
-  - {name: TG频道:@kxswa |中国 19, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
-  - {name: TG频道:@kxswa |中国 20, server: 116.162.120.23, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ, udp: true}
-  - {name: TG频道:@kxswa |中国 21, server: 116.162.120.23, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ, udp: true}
-  - {name: TG频道:@kxswa |中国 22, server: 116.162.120.23, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 23, server: 116.162.120.23, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53923:hjgjuy6t655jjg, obfs-param: WkVNMWRGcFRPVEpqUnpWdldWaFI, udp: true}
-  - {name: TG频道:@kxswa |中国 24, server: 116.162.120.23, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 25, server: 116.162.120.23, port: 611, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 26, server: 116.162.120.24, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 27, server: 183.232.141.114, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
-  - {name: TG频道:@kxswa |中国 28, server: 183.232.141.82, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: TG频道:@kxswa |中国 29, server: 116.162.120.23, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
+  - {name: TG频道:@kxswa |美国 14, server: 172.64.155.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |美国 15, server: 172.64.154.155, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |法国 3, server: 146.59.43.129, port: 443, type: vmess, uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /a54e284cb6/, ws-headers: {Host: 146.59.43.129}, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 5, server: 91.243.82.249, port: 20002, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |新加坡, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 16, server: 172.64.154.150, port: 443, type: vmess, uuid: bf4619e4-01dc-48ca-be08-0976b54968ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg5.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |意大利, server: 87.120.237.135, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 125, server: 116.129.254.6, port: 11917, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 6, server: ru1.v2rayserv.com, port: 80, type: vmess, uuid: bc4f16e3-0b57-4367-8caf-88ee67859920, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: ru1.v2rayserv.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 126, server: 116.129.254.6, port: 11908, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 127, server: 221.131.165.89, port: 59448, type: ss, cipher: chacha20-ietf-poly1305, password: ecryauxZk3s4e, udp: true}
+  - {name: TG频道:@kxswa |印度, server: 152.67.190.183, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 128, server: 111.45.22.151, port: 11922, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 17, server: 172.64.153.200, port: 443, type: vmess, uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg4.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |香港 4, server: 47.243.244.200, port: 51535, type: vmess, uuid: 98a2ba95-d179-4563-82be-ea5c897be747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.244.200]}}, udp: true}
+  - {name: TG频道:@kxswa |美国 18, server: 172.64.144.154, port: 443, type: vmess, uuid: 94887268-f3cb-48be-ade3-87d42faae3e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: m5.v2rayfree1.xyz}, udp: true}
+  - {name: TG频道:@kxswa |中国 129, server: iplc01.my1188.org, port: 3184, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01.contabo.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |俄罗斯联邦 7, server: 91.243.82.249, port: 20002, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 130, server: 111.45.22.152, port: 11902, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 131, server: 43.154.9.57, port: 42429, type: vmess, uuid: 23fe895f-ddd5-4a98-a43d-8fa9b9d76360, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.9.57]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 132, server: 111.45.22.152, port: 11916, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 133, server: 116.129.254.6, port: 11902, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 134, server: 111.45.22.152, port: 11922, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |印度 2, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 135, server: 111.45.22.152, port: 11918, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 136, server: 111.45.22.151, port: 11930, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 137, server: 111.45.22.152, port: 11910, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 138, server: shcuac.aag436.ccddn4.icu, port: 65523, type: trojan, password: 7243c2bd-5576-3c2d-aea0-594ff03522a0, sni: shcuac.aag436.ccddn4.icu, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |荷兰 2, server: 213.183.59.218, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: TG频道:@kxswa |中国 139, server: 221.131.165.72, port: 11930, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 140, server: 111.45.22.151, port: 11904, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 141, server: 221.131.165.72, port: 11910, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 142, server: liaoningddns.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 26786:r3uWHp, obfs-param: MDE4YWIxMjAyMy5taWNyb3NvZnQuY29t, udp: true}
+  - {name: TG频道:@kxswa |日本 5, server: 85.208.108.93, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG频道:@kxswa |日本 6, server: 85.208.108.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: TG频道:@kxswa |日本 7, server: 85.208.108.93, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG频道:@kxswa |中国 143, server: 111.45.22.152, port: 11932, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |韩国 2, server: 152.67.213.242, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 144, server: 111.45.22.151, port: 11921, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 145, server: 111.45.22.151, port: 11932, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 146, server: 111.45.22.151, port: 11905, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |香港 5, server: 47.243.108.35, port: 39729, type: vmess, uuid: dc47d16f-d3e0-4b37-bde4-218e90144a8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.108.35]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 147, server: iplc01.my1188.org, port: 3044, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg03.li.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |中国 148, server: 111.45.22.152, port: 11930, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 149, server: 111.45.22.152, port: 11931, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |澳大利亚, server: 152.67.98.30, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 19, server: 172.64.144.100, port: 443, type: vmess, uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg3.zhujicn2.com}, udp: true}
+  - {name: TG频道:@kxswa |荷兰 3, server: 213.183.59.218, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: TG频道:@kxswa |中国 150, server: 111.45.22.152, port: 11909, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 151, server: 111.45.22.152, port: 11921, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 152, server: 221.131.165.72, port: 11931, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 153, server: 111.45.22.151, port: 11909, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 154, server: 116.129.254.6, port: 11928, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 155, server: 111.45.22.152, port: 11913, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |台湾 2, server: fn600mliness017.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8812c0e4e2b0, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness017.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |日本 8, server: 85.208.108.93, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG频道:@kxswa |香港 6, server: hk-core.pvpgames.net, port: 64077, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01x.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 156, server: 221.131.165.72, port: 11904, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 157, server: moblev3.mipglxi.cn, port: 6605, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |新加坡 2, server: 1002tw.tfzhc.top, port: 443, type: trojan, password: 0a8df927-324d-463c-a349-1a8144078683, sni: 1002tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 158, server: moblev3.mipglxi.cn, port: 6607, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 159, server: unicomv3.mipglxi.cn, port: 6615, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 160, server: 111.45.22.151, port: 9008, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 161, server: awscnbalanced-03.turingnet.top, port: 11135, type: trojan, password: 1107ee24-c09d-48ae-a12a-58cf64cdc015, sni: awscnbalanced-03.turingnet.top, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 162, server: 221.131.165.72, port: 9003, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 163, server: 111.45.22.152, port: 9032, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 164, server: 116.129.254.6, port: 9018, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 165, server: cnsouth-05.turingnet.top, port: 24567, type: trojan, password: 1107ee24-c09d-48ae-a12a-58cf64cdc015, sni: cnsouth-05.turingnet.top, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 166, server: 111.45.22.152, port: 9033, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 167, server: 111.45.22.152, port: 9030, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 168, server: 221.131.165.72, port: 9033, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 169, server: 221.131.165.72, port: 9002, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 170, server: 111.45.22.152, port: 9037, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 171, server: unicomv3.mipglxi.cn, port: 6618, type: ss, cipher: aes-128-gcm, password: fd772ab8-d7ae-477b-98d4-f8ef389b9472, udp: true}
+  - {name: TG频道:@kxswa |中国 172, server: 111.45.22.152, port: 9010, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 173, server: 221.131.165.72, port: 11932, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 174, server: iplc01.my1188.org, port: 3104, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ru02.iepl.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |中国 175, server: iplc01.my1188.org, port: 3024, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkbgp-biteb.iepl.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |荷兰 4, server: 213.183.59.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: TG频道:@kxswa |中国 176, server: 111.45.22.151, port: 11902, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |菲律宾, server: 49.157.28.212, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 177, server: 111.45.22.151, port: 11931, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |美国 20, server: 38.54.33.116, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: TG频道:@kxswa |中国 178, server: in01.my1188.org, port: 64071, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.myn1des.com}, udp: true}
+  - {name: TG频道:@kxswa |中国 179, server: 111.45.22.152, port: 11908, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 180, server: 111.45.22.151, port: 11914, type: vmess, uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 181, server: Gd.jsyml.cn, port: 80, type: vmess, uuid: 4a85a357-9e6a-4035-bc5e-b7da792beadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: TG频道:@kxswa |香港 7, server: 47.243.247.109, port: 53314, type: vmess, uuid: 8c232a9e-6760-43b5-851e-a65b9965b5ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.247.109]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 182, server: in05.my1188.org, port: 64021, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
+  - {name: TG频道:@kxswa | 5, server: 103.172.116.6, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: TG频道:@kxswa | 6, server: 103.172.116.6, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: TG频道:@kxswa |中国 183, server: 210.75.24.220, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}, udp: true}
+  - {name: TG频道:@kxswa |台湾 3, server: 103.137.22.44, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |香港 8, server: xmssmf02.xmss.vip, port: 17777, type: ss, cipher: chacha20-ietf-poly1305, password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1, udp: true}
+  - {name: TG频道:@kxswa |中国 184, server: in05.my1188.org, port: 64084, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
+  - {name: TG频道:@kxswa |台湾 4, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines021.fnline.info, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |香港 9, server: 8.210.194.59, port: 52523, type: vmess, uuid: f36fbdd6-d613-4481-8464-c77d4a4edeab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.194.59]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 185, server: in05.my1188.org, port: 64081, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
+  - {name: TG频道:@kxswa | 7, server: 103.172.116.6, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: TG频道:@kxswa | 8, server: 103.172.116.6, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: TG频道:@kxswa |日本 9, server: 47.74.51.30, port: 443, type: vmess, uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /b472f/, ws-headers: {Host: linode.sharecentre.xyz}, udp: true}
+  - {name: TG频道:@kxswa |美国 21, server: 20.210.122.21, port: 443, type: ss, cipher: aes-256-gcm, password: 233blog.com, udp: true}
+  - {name: TG频道:@kxswa |台湾 5, server: fn600mliness018.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 55011c8548ff, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness018.fnline.xyz, path: /, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: TG频道:@kxswa |香港 10, server: 194.29.186.135, port: 8439, type: ss, cipher: chacha20-ietf-poly1305, password: WOUkp3T89G8jH, udp: true}
+  - {name: TG频道:@kxswa |香港 11, server: 47.243.248.22, port: 38120, type: vmess, uuid: 29d435a4-b7fb-44db-9119-4ede4e22c250, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.248.22]}}, udp: true}
+  - {name: TG频道:@kxswa |中国 186, server: iplc01.my1188.org, port: 3014, type: vmess, uuid: ca039e98-434d-31a5-9627-051921079ca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp04.li.nbsd.us}, udp: true}
+  - {name: TG频道:@kxswa |中国 187, server: 14.29.124.174, port: 11020, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:@kxswa |中国 188, server: 14.29.124.174, port: 11011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:@kxswa |中国 189, server: 124.223.44.153, port: 80, type: vmess, uuid: 8017dfd8-f239-4ec6-e2dd-416189856438, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.223.44.153}, udp: true}
+  - {name: TG频道:@kxswa |中国 190, server: 121.41.86.94, port: 1, type: vmess, uuid: 3781e552-2d72-40e4-dc1f-f06e10c8c1fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 191, server: 121.41.86.94, port: 5674, type: vmess, uuid: 79ce0633-5bc1-44ab-a47c-119916f2901d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 121.41.86.94}, udp: true}
+  - {name: TG频道:@kxswa |中国 192, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:@kxswa |中国 193, server: 221.131.165.89, port: 57124, type: ss, cipher: chacha20-ietf-poly1305, password: Lxjc2FLT5XXbt, udp: true}
+  - {name: TG频道:@kxswa |中国 194, server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:@kxswa |韩国 3, server: kr1.api-aws.com, port: 443, type: trojan, password: edeb6377-0d40-483b-869a-8b3be9d74850, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
+  - {name: TG频道:@kxswa |中国 195, server: 14.29.124.174, port: 11043, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG频道:@kxswa | 9, server: 103.172.116.6, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: TG频道:@kxswa | 10, server: 103.172.116.7, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: TG频道:@kxswa | 11, server: 103.172.116.7, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -163,69 +324,275 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -244,70 +611,276 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -326,6 +899,257 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -344,64 +1168,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -420,84 +1199,296 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |香港
       - TG频道:@kxswa |香港 2
       - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |台湾 6
       - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -516,69 +1507,275 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -597,70 +1794,276 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -679,6 +2082,257 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -694,64 +2348,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 更新于10/07/13:20
-      - TG频道:@kxswa |日本
-      - TG频道:@kxswa |香港
-      - TG频道:@kxswa |香港 2
-      - TG频道:@kxswa |俄罗斯联邦
-      - TG频道:@kxswa |香港 3
-      - TG频道:@kxswa |俄罗斯联邦 2
+      - 更新与10/08/09:10
       - TG频道:@kxswa |中国
-      - TG频道:@kxswa |俄罗斯联邦 3
-      - TG频道:@kxswa |俄罗斯联邦 4
-      - TG频道:@kxswa |美国
-      - TG频道:@kxswa |美国 2
-      - TG频道:@kxswa |荷兰
-      - TG频道:@kxswa |日本 2
       - TG频道:@kxswa |中国 2
       - TG频道:@kxswa |中国 3
       - TG频道:@kxswa |中国 4
-      - TG频道:@kxswa |台湾
-      - TG频道:@kxswa |台湾 2
-      - TG频道:@kxswa |
-      - TG频道:@kxswa | 2
-      - TG频道:@kxswa |日本 3
-      - TG频道:@kxswa |俄罗斯联邦 5
-      - TG频道:@kxswa |西班牙
-      - TG频道:@kxswa |日本 4
-      - TG频道:@kxswa |台湾 3
-      - TG频道:@kxswa |英国
-      - TG频道:@kxswa |西班牙 2
-      - TG频道:@kxswa |葡萄牙
-      - TG频道:@kxswa |保加利亚
-      - TG频道:@kxswa |台湾 4
-      - TG频道:@kxswa |墨西哥
-      - TG频道:@kxswa |瑞士
-      - TG频道:@kxswa |日本 5
-      - TG频道:@kxswa |澳大利亚
-      - TG频道:@kxswa |日本 6
-      - TG频道:@kxswa |以色列
-      - TG频道:@kxswa |法国
-      - TG频道:@kxswa |台湾 5
-      - TG频道:@kxswa |美国 3
-      - TG频道:@kxswa |美国 4
       - TG频道:@kxswa |中国 5
-      - TG频道:@kxswa |台湾 6
-      - TG频道:@kxswa |美国 5
       - TG频道:@kxswa |中国 6
-      - TG频道:@kxswa |美国 6
-      - TG频道:@kxswa |null
-      - TG频道:@kxswa |加拿大
-      - TG频道:@kxswa |加拿大 2
       - TG频道:@kxswa |中国 7
-      - TG频道:@kxswa |韩国
       - TG频道:@kxswa |中国 8
-      - TG频道:@kxswa |新加坡
-      - TG频道:@kxswa |日本 7
       - TG频道:@kxswa |中国 9
-      - TG频道:@kxswa |香港 4
       - TG频道:@kxswa |中国 10
       - TG频道:@kxswa |中国 11
+      - TG频道:@kxswa |台湾
       - TG频道:@kxswa |中国 12
       - TG频道:@kxswa |中国 13
       - TG频道:@kxswa |中国 14
@@ -770,6 +2379,257 @@ proxy-groups:
       - TG频道:@kxswa |中国 27
       - TG频道:@kxswa |中国 28
       - TG频道:@kxswa |中国 29
+      - TG频道:@kxswa |中国 30
+      - TG频道:@kxswa |中国 31
+      - TG频道:@kxswa |中国 32
+      - TG频道:@kxswa |中国 33
+      - TG频道:@kxswa |中国 34
+      - TG频道:@kxswa |中国 35
+      - TG频道:@kxswa |香港
+      - TG频道:@kxswa |中国 36
+      - TG频道:@kxswa |中国 37
+      - TG频道:@kxswa |中国 38
+      - TG频道:@kxswa |中国 39
+      - TG频道:@kxswa |中国 40
+      - TG频道:@kxswa |中国 41
+      - TG频道:@kxswa |中国 42
+      - TG频道:@kxswa |中国 43
+      - TG频道:@kxswa |中国 44
+      - TG频道:@kxswa |中国 45
+      - TG频道:@kxswa |韩国
+      - TG频道:@kxswa |中国 46
+      - TG频道:@kxswa |中国 47
+      - TG频道:@kxswa |中国 48
+      - TG频道:@kxswa |中国 49
+      - TG频道:@kxswa |中国 50
+      - TG频道:@kxswa |中国 51
+      - TG频道:@kxswa |中国 52
+      - TG频道:@kxswa |日本
+      - TG频道:@kxswa |中国 53
+      - TG频道:@kxswa |中国 54
+      - TG频道:@kxswa |中国 55
+      - TG频道:@kxswa |中国 56
+      - TG频道:@kxswa |中国 57
+      - TG频道:@kxswa |中国 58
+      - TG频道:@kxswa |中国 59
+      - TG频道:@kxswa |中国 60
+      - TG频道:@kxswa |中国 61
+      - TG频道:@kxswa |中国 62
+      - TG频道:@kxswa |中国 63
+      - TG频道:@kxswa |中国 64
+      - TG频道:@kxswa |日本 2
+      - TG频道:@kxswa |中国 65
+      - TG频道:@kxswa |中国 66
+      - TG频道:@kxswa |中国 67
+      - TG频道:@kxswa |中国 68
+      - TG频道:@kxswa |中国 69
+      - TG频道:@kxswa |中国 70
+      - TG频道:@kxswa |中国 71
+      - TG频道:@kxswa |中国 72
+      - TG频道:@kxswa |中国 73
+      - TG频道:@kxswa |中国 74
+      - TG频道:@kxswa |中国 75
+      - TG频道:@kxswa |中国 76
+      - TG频道:@kxswa |中国 77
+      - TG频道:@kxswa |
+      - TG频道:@kxswa |中国 78
+      - TG频道:@kxswa |中国 79
+      - TG频道:@kxswa |中国 80
+      - TG频道:@kxswa |中国 81
+      - TG频道:@kxswa |中国 82
+      - TG频道:@kxswa |中国 83
+      - TG频道:@kxswa |中国 84
+      - TG频道:@kxswa |波兰
+      - TG频道:@kxswa |中国 85
+      - TG频道:@kxswa |中国 86
+      - TG频道:@kxswa |中国 87
+      - TG频道:@kxswa |中国 88
+      - TG频道:@kxswa |中国 89
+      - TG频道:@kxswa |中国 90
+      - TG频道:@kxswa |中国 91
+      - TG频道:@kxswa |美国
+      - TG频道:@kxswa |中国 92
+      - TG频道:@kxswa |中国 93
+      - TG频道:@kxswa |俄罗斯联邦
+      - TG频道:@kxswa |荷兰
+      - TG频道:@kxswa |中国 94
+      - TG频道:@kxswa |俄罗斯联邦 2
+      - TG频道:@kxswa |美国 2
+      - TG频道:@kxswa |美国 3
+      - TG频道:@kxswa |美国 4
+      - TG频道:@kxswa |美国 5
+      - TG频道:@kxswa |中国 95
+      - TG频道:@kxswa |美国 6
+      - TG频道:@kxswa |中国 96
+      - TG频道:@kxswa | 2
+      - TG频道:@kxswa |中国 97
+      - TG频道:@kxswa |中国 98
+      - TG频道:@kxswa |中国 99
+      - TG频道:@kxswa |中国 100
+      - TG频道:@kxswa |西班牙
+      - TG频道:@kxswa |法国
+      - TG频道:@kxswa | 3
+      - TG频道:@kxswa |日本 3
+      - TG频道:@kxswa |美国 7
+      - TG频道:@kxswa |美国 8
+      - TG频道:@kxswa |中国 101
+      - TG频道:@kxswa |俄罗斯联邦 3
+      - TG频道:@kxswa |香港 2
+      - TG频道:@kxswa |中国 102
+      - TG频道:@kxswa | 4
+      - TG频道:@kxswa |中国 103
+      - TG频道:@kxswa |中国 104
+      - TG频道:@kxswa |中国 105
+      - TG频道:@kxswa |香港 3
+      - TG频道:@kxswa |日本 4
+      - TG频道:@kxswa |中国 106
+      - TG频道:@kxswa |以色列
+      - TG频道:@kxswa |中国 107
+      - TG频道:@kxswa |中国 108
+      - TG频道:@kxswa |法国 2
+      - TG频道:@kxswa |中国 109
+      - TG频道:@kxswa |美国 9
+      - TG频道:@kxswa |中国 110
+      - TG频道:@kxswa |中国 111
+      - TG频道:@kxswa |中国 112
+      - TG频道:@kxswa |美国 10
+      - TG频道:@kxswa |美国 11
+      - TG频道:@kxswa |俄罗斯联邦 4
+      - TG频道:@kxswa |中国 113
+      - TG频道:@kxswa |中国 114
+      - TG频道:@kxswa |中国 115
+      - TG频道:@kxswa |中国 116
+      - TG频道:@kxswa |美国 12
+      - TG频道:@kxswa |中国 117
+      - TG频道:@kxswa |中国 118
+      - TG频道:@kxswa |中国 119
+      - TG频道:@kxswa |中国 120
+      - TG频道:@kxswa |美国 13
+      - TG频道:@kxswa |中国 121
+      - TG频道:@kxswa |中国 122
+      - TG频道:@kxswa |中国 123
+      - TG频道:@kxswa |中国 124
+      - TG频道:@kxswa |英国
+      - TG频道:@kxswa |葡萄牙
+      - TG频道:@kxswa |美国 14
+      - TG频道:@kxswa |美国 15
+      - TG频道:@kxswa |法国 3
+      - TG频道:@kxswa |俄罗斯联邦 5
+      - TG频道:@kxswa |新加坡
+      - TG频道:@kxswa |美国 16
+      - TG频道:@kxswa |意大利
+      - TG频道:@kxswa |中国 125
+      - TG频道:@kxswa |俄罗斯联邦 6
+      - TG频道:@kxswa |中国 126
+      - TG频道:@kxswa |中国 127
+      - TG频道:@kxswa |印度
+      - TG频道:@kxswa |中国 128
+      - TG频道:@kxswa |美国 17
+      - TG频道:@kxswa |香港 4
+      - TG频道:@kxswa |美国 18
+      - TG频道:@kxswa |中国 129
+      - TG频道:@kxswa |俄罗斯联邦 7
+      - TG频道:@kxswa |中国 130
+      - TG频道:@kxswa |中国 131
+      - TG频道:@kxswa |中国 132
+      - TG频道:@kxswa |中国 133
+      - TG频道:@kxswa |中国 134
+      - TG频道:@kxswa |印度 2
+      - TG频道:@kxswa |中国 135
+      - TG频道:@kxswa |中国 136
+      - TG频道:@kxswa |中国 137
+      - TG频道:@kxswa |中国 138
+      - TG频道:@kxswa |荷兰 2
+      - TG频道:@kxswa |中国 139
+      - TG频道:@kxswa |中国 140
+      - TG频道:@kxswa |中国 141
+      - TG频道:@kxswa |中国 142
+      - TG频道:@kxswa |日本 5
+      - TG频道:@kxswa |日本 6
+      - TG频道:@kxswa |日本 7
+      - TG频道:@kxswa |中国 143
+      - TG频道:@kxswa |韩国 2
+      - TG频道:@kxswa |中国 144
+      - TG频道:@kxswa |中国 145
+      - TG频道:@kxswa |中国 146
+      - TG频道:@kxswa |香港 5
+      - TG频道:@kxswa |中国 147
+      - TG频道:@kxswa |中国 148
+      - TG频道:@kxswa |中国 149
+      - TG频道:@kxswa |澳大利亚
+      - TG频道:@kxswa |美国 19
+      - TG频道:@kxswa |荷兰 3
+      - TG频道:@kxswa |中国 150
+      - TG频道:@kxswa |中国 151
+      - TG频道:@kxswa |中国 152
+      - TG频道:@kxswa |中国 153
+      - TG频道:@kxswa |中国 154
+      - TG频道:@kxswa |中国 155
+      - TG频道:@kxswa |台湾 2
+      - TG频道:@kxswa |日本 8
+      - TG频道:@kxswa |香港 6
+      - TG频道:@kxswa |中国 156
+      - TG频道:@kxswa |中国 157
+      - TG频道:@kxswa |新加坡 2
+      - TG频道:@kxswa |中国 158
+      - TG频道:@kxswa |中国 159
+      - TG频道:@kxswa |中国 160
+      - TG频道:@kxswa |中国 161
+      - TG频道:@kxswa |中国 162
+      - TG频道:@kxswa |中国 163
+      - TG频道:@kxswa |中国 164
+      - TG频道:@kxswa |中国 165
+      - TG频道:@kxswa |中国 166
+      - TG频道:@kxswa |中国 167
+      - TG频道:@kxswa |中国 168
+      - TG频道:@kxswa |中国 169
+      - TG频道:@kxswa |中国 170
+      - TG频道:@kxswa |中国 171
+      - TG频道:@kxswa |中国 172
+      - TG频道:@kxswa |中国 173
+      - TG频道:@kxswa |中国 174
+      - TG频道:@kxswa |中国 175
+      - TG频道:@kxswa |荷兰 4
+      - TG频道:@kxswa |中国 176
+      - TG频道:@kxswa |菲律宾
+      - TG频道:@kxswa |中国 177
+      - TG频道:@kxswa |美国 20
+      - TG频道:@kxswa |中国 178
+      - TG频道:@kxswa |中国 179
+      - TG频道:@kxswa |中国 180
+      - TG频道:@kxswa |中国 181
+      - TG频道:@kxswa |香港 7
+      - TG频道:@kxswa |中国 182
+      - TG频道:@kxswa | 5
+      - TG频道:@kxswa | 6
+      - TG频道:@kxswa |中国 183
+      - TG频道:@kxswa |台湾 3
+      - TG频道:@kxswa |香港 8
+      - TG频道:@kxswa |中国 184
+      - TG频道:@kxswa |台湾 4
+      - TG频道:@kxswa |香港 9
+      - TG频道:@kxswa |中国 185
+      - TG频道:@kxswa | 7
+      - TG频道:@kxswa | 8
+      - TG频道:@kxswa |日本 9
+      - TG频道:@kxswa |美国 21
+      - TG频道:@kxswa |台湾 5
+      - TG频道:@kxswa |香港 10
+      - TG频道:@kxswa |香港 11
+      - TG频道:@kxswa |中国 186
+      - TG频道:@kxswa |中国 187
+      - TG频道:@kxswa |中国 188
+      - TG频道:@kxswa |中国 189
+      - TG频道:@kxswa |中国 190
+      - TG频道:@kxswa |中国 191
+      - TG频道:@kxswa |中国 192
+      - TG频道:@kxswa |中国 193
+      - TG频道:@kxswa |中国 194
+      - TG频道:@kxswa |韩国 3
+      - TG频道:@kxswa |中国 195
+      - TG频道:@kxswa | 9
+      - TG频道:@kxswa | 10
+      - TG频道:@kxswa | 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
