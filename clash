@@ -5,38 +5,40 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ✈️付费机场推荐✈️, server: 8.208.13.233, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: dafeivpn.com 5元专线机场, server: 47.252.2.194, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa), server: 47.252.11.78, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 2, server: 204.44.111.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: ✈️付费机场推荐✈️, server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351}
+  - {name: dafeivpn.com 5元专线机场, server: 8.208.13.233, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa), server: 8.218.80.207, port: 58793, type: vmess, uuid: 652919af-4b0f-4211-8f06-952958d05038, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 2, server: 8.218.63.184, port: 20113, type: vmess, uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡(TG频道:@kxswa) 3, server: 8.218.86.250, port: 22362, type: vmess, uuid: 72356bf7-487b-42c0-a7f2-845136b33503, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(TG频道:@kxswa), server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfen001.pics}}}
+  - {name: 🇭🇰 香港(TG频道:@kxswa) 2, server: 47.243.36.34, port: 55986, type: vmess, uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港(TG频道:@kxswa) 3, server: 47.242.205.255, port: 49935, type: vmess, uuid: 3ffddc7c-80a3-4677-ab9e-30da4190ec6a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国(TG频道:@kxswa), server: us1.sanfen001.pics, port: 443, type: vmess, uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfen001.pics}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 2, server: 128.14.162.48, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
   - {name: 🇺🇲 美国(TG频道:@kxswa) 3, server: 192.161.60.131, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 4, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 4, server: 104.223.102.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
   - {name: 🇺🇲 美国(TG频道:@kxswa) 5, server: 107.172.242.3, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 6, server: 66.212.20.3, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 7, server: 47.89.156.179, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 8, server: 47.90.209.141, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 9, server: 104.25.253.37, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 10, server: 104.223.102.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 11, server: 128.14.162.48, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 12, server: 47.252.10.154, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 6, server: 47.252.11.78, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 7, server: 204.44.111.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 8, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 9, server: 66.212.20.3, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 10, server: 47.252.2.194, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 11, server: 47.252.11.37, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 12, server: 47.253.50.111, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
   - {name: 🇺🇲 美国(TG频道:@kxswa) 13, server: 47.252.25.45, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 14, server: 47.253.50.111, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 14, server: 47.90.249.104, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
   - {name: 🇺🇲 美国(TG频道:@kxswa) 15, server: 47.89.152.227, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 16, server: 47.90.249.104, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 17, server: 47.89.153.87, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 18, server: 47.252.11.37, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: 🇺🇲 美国(TG频道:@kxswa) 19, server: 47.90.248.147, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 16, server: 47.90.209.141, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 17, server: 47.252.10.154, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 18, server: 47.89.156.179, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 19, server: 47.89.153.87, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: 🇺🇲 美国(TG频道:@kxswa) 20, server: 30.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 30.72img.xyz}}}
   - {name: 🇵🇭 菲律宾(TG频道:@kxswa), server: 8.212.132.1, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
   - {name: 🇩🇪 德国(TG频道:@kxswa), server: 8.209.74.14, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa), server: 104.19.42.52, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 2, server: 162.159.136.85, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 3, server: 104.17.224.234, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 4, server: 198.41.212.86, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 5, server: 104.21.232.198, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 6, server: 104.21.51.143, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 7, server: 198.41.208.9, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 8, server: 104.21.63.246, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
-  - {name: (TG频道:@kxswa) 9, server: 198.41.212.122, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: (TG频道:@kxswa), server: 54.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 54.72img.xyz}}}
+  - {name: (TG频道:@kxswa) 2, server: 9.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 9.72img.xyz}}}
+  - {name: (TG频道:@kxswa) 3, server: 104.21.51.143, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
+  - {name: (TG频道:@kxswa) 4, server: 104.21.63.246, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: node1.wblogw1.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,6 +47,12 @@ proxy-groups:
       - DIRECT
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -64,17 +72,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -83,6 +87,12 @@ proxy-groups:
     proxies:
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -102,17 +112,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -121,6 +127,12 @@ proxy-groups:
       - 🎯 全球直连
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -140,17 +152,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: 📲 电报信息
     type: select
     proxies:
@@ -158,6 +166,12 @@ proxy-groups:
       - 🎯 全球直连
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -177,17 +191,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -195,6 +205,12 @@ proxy-groups:
       - 🚀 节点选择
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -214,17 +230,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -232,6 +244,12 @@ proxy-groups:
       - 🎯 全球直连
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -251,17 +269,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -270,6 +284,12 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -289,17 +309,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -324,6 +340,12 @@ proxy-groups:
       - ♻️ 自动选择
       - ✈️付费机场推荐✈️
       - dafeivpn.com 5元专线机场
+      - 🇸🇬 新加坡(TG频道:@kxswa)
+      - 🇸🇬 新加坡(TG频道:@kxswa) 2
+      - 🇸🇬 新加坡(TG频道:@kxswa) 3
+      - 🇭🇰 香港(TG频道:@kxswa)
+      - 🇭🇰 香港(TG频道:@kxswa) 2
+      - 🇭🇰 香港(TG频道:@kxswa) 3
       - 🇺🇲 美国(TG频道:@kxswa)
       - 🇺🇲 美国(TG频道:@kxswa) 2
       - 🇺🇲 美国(TG频道:@kxswa) 3
@@ -343,17 +365,13 @@ proxy-groups:
       - 🇺🇲 美国(TG频道:@kxswa) 17
       - 🇺🇲 美国(TG频道:@kxswa) 18
       - 🇺🇲 美国(TG频道:@kxswa) 19
+      - 🇺🇲 美国(TG频道:@kxswa) 20
       - 🇵🇭 菲律宾(TG频道:@kxswa)
       - 🇩🇪 德国(TG频道:@kxswa)
       - (TG频道:@kxswa)
       - (TG频道:@kxswa) 2
       - (TG频道:@kxswa) 3
       - (TG频道:@kxswa) 4
-      - (TG频道:@kxswa) 5
-      - (TG频道:@kxswa) 6
-      - (TG频道:@kxswa) 7
-      - (TG频道:@kxswa) 8
-      - (TG频道:@kxswa) 9
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
