@@ -1,3 +1,7 @@
+<p align="center">
+<img  src="https://profile-counter.glitch.me/kxswa_k/count.svg" alt="Sub :: Visitor's Count" />
+</p> 
+
 # 🚀【科学上网】节点|订阅|机场|梯子|代理
 ### 🔈TG频道：[@kxswa](https://t.me/kxswa/) 
 ***  
